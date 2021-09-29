@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a0a62466.chunk.css",
+    "main.js": "/portfolio/static/js/main.538b7164.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.538b7164.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.5483d5da.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5483d5da.js.map",
+    "static/js/2.8239ee0f.chunk.js": "/portfolio/static/js/2.8239ee0f.chunk.js",
+    "static/js/2.8239ee0f.chunk.js.map": "/portfolio/static/js/2.8239ee0f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.a0a62466.chunk.css.map": "/portfolio/static/css/main.a0a62466.chunk.css.map",
+    "static/js/2.8239ee0f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8239ee0f.chunk.js.LICENSE.txt",
+    "static/media/eyesclosed.9949d836.jpg": "/portfolio/static/media/eyesclosed.9949d836.jpg",
+    "static/media/graphql.a694f069.png": "/portfolio/static/media/graphql.a694f069.png",
+    "static/media/mongo.0c39e069.png": "/portfolio/static/media/mongo.0c39e069.png",
+    "static/media/todo.5f4f6d0e.png": "/portfolio/static/media/todo.5f4f6d0e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5483d5da.js",
+    "static/js/2.8239ee0f.chunk.js",
+    "static/css/main.a0a62466.chunk.css",
+    "static/js/main.538b7164.chunk.js"
+  ]
+}
