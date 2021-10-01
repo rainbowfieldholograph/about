@@ -9,6 +9,8 @@
   flex-direction: column;
   background: rgb(20, 29, 38);
   padding-bottom: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .wrapper::before {

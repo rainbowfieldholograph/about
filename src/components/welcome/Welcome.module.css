@@ -17,6 +17,6 @@
   align-items: center;
 }
 
-.hello {
+.text:not(:last-child) {
   margin-bottom: 20px;
 }

@@ -14,7 +14,7 @@ const Work = ({ image, title, descr, stack, project, github }) => {
         <MyLink href={github} icon={faGithub} />
       </div>
       <p>{descr}</p>
-      <p>Стек техноголой: {stack}</p>
+      <p>Стек технологий: {stack}</p>
     </li>
   )
 }

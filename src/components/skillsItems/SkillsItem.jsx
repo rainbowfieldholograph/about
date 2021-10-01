@@ -7,7 +7,7 @@ const SkillsItem = ({ title, icon, fontawesome = true, size = 30 }) => {
   return (
     <li className={styles.item}>
       <div className={styles.box}>
-        {title}
+        <p>{title}</p>
         {fontawesome ? (
           <FontAwesomeIcon icon={icon} />
         ) : (

@@ -20,7 +20,7 @@ const skillsData = [
   { title: 'NodeJS', icon: faNode },
   { title: 'MongoDB', icon: mongoImg, fontawesome: false },
   { title: 'GraphQL', icon: graphqlImg, fontawesome: false, size: 40 },
-  { title: 'AWS S3 Buckets', icon: faAws },
+  { title: 'S3 Buckets', icon: faAws },
 ]
 
 const Skills = () => {
