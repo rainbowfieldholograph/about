@@ -8,7 +8,10 @@ const Work = ({ image, title, descr, stack, project, github }) => {
   return (
     <li className={styles.work}>
       <h2>{title}</h2>
-      <img className={styles.image} src={image} alt="work example" />
+      <div className={styles.imgWrapper}>
+        <img className={styles.image} src={image} alt="work example" />
+      </div>
+
       <div className={styles.links}>
         <MyLink href={project} icon={faEye} />
         <MyLink href={github} icon={faGithub} />

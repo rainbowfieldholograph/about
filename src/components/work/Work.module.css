@@ -9,8 +9,14 @@
 
 .image {
   border-radius: 1em;
-  min-height: 400px;
+  min-height: 270px;
   max-height: 520px;
+}
+
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .links {

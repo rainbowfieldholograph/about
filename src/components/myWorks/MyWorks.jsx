@@ -2,8 +2,10 @@ import React from 'react'
 import Work from '../work/Work'
 import styles from './MyWorks.module.css'
 
-import eyesClosedImg from '../../img/eyesclosed.jpg'
+import eyesClosedImg from '../../img/eyesclosed.png'
 import todoImg from '../../img/todo.png'
+import moodboardImg from '../../img/moodboard.png'
+import reactsneakersImg from '../../img/react-sneakers.png'
 
 const worksData = [
   {
@@ -22,6 +24,24 @@ const worksData = [
     stack: 'React',
     project: 'https://youthfulanger.github.io/todolist-test/',
     github: 'https://github.com/youthfulanger/todolist-test',
+  },
+  {
+    image: moodboardImg,
+    title: 'Moodboard',
+    descr:
+      'Супер старая работа по адаптивной вёрстке одного урезанного дизайна на React(+ добавил минимальный функционал) ',
+    stack: 'React',
+    project: 'https://youthfulanger.github.io/moodboard-old-work/',
+    github: 'https://github.com/youthfulanger/moodboard-old-work',
+  },
+  {
+    image: reactsneakersImg,
+    title: 'React sneakers',
+    descr:
+      'Приложение, сделанное по видеокурсу react sneakers от archakov. Исправлено много багов в изначальном коде.(до сих пор много багов, по-тихоньку исправляю)',
+    stack: 'React, MockAPI',
+    project: 'https://youthfulanger.github.io/react-sneakers/',
+    github: 'https://github.com/youthfulanger/react-sneakers',
   },
 ]
 
