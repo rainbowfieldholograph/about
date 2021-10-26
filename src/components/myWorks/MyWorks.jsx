@@ -6,13 +6,14 @@ import eyesClosedImg from '../../img/eyesclosed.png'
 import todoImg from '../../img/todo.png'
 import moodboardImg from '../../img/moodboard.png'
 import reactsneakersImg from '../../img/react-sneakers.png'
+import lainMatrixRain from '../../img/lain-matrix-rain.png'
 
 const worksData = [
   {
     image: eyesClosedImg,
     title: 'Eyes-closed',
     descr: 'Fullstack приложение для прослушивания и загрузки музыки. Выполнен деплой на heroku',
-    stack: 'React, MongoDB, NodeJS, Express, GraphQL, s3 buckets',
+    stack: 'React, MongoDB, NodeJS, Express, GraphQL, ApolloServer, s3 buckets',
     project: 'https://eyes-closed.herokuapp.com/',
     github: 'https://github.com/youthfulanger/music-playlist-fullstack',
   },
@@ -28,8 +29,7 @@ const worksData = [
   {
     image: moodboardImg,
     title: 'Moodboard',
-    descr:
-      'Супер старая работа по адаптивной вёрстке одного урезанного дизайна на React(+ добавил минимальный функционал) ',
+    descr: 'Demo версия старой работы на React(+ добавил минимальный функционал)',
     stack: 'React',
     project: 'https://youthfulanger.github.io/moodboard-old-work/',
     github: 'https://github.com/youthfulanger/moodboard-old-work',
@@ -38,10 +38,18 @@ const worksData = [
     image: reactsneakersImg,
     title: 'React sneakers',
     descr:
-      'Приложение, сделанное по видеокурсу react sneakers от archakov. Исправлено много багов в изначальном коде.(до сих пор много багов, по-тихоньку исправляю)',
+      'Приложение, сделанное по видеокурсу react sneakers от archakov. Исправлено много багов в изначальном коде (до сих пор много багов, по-тихоньку исправляю)',
     stack: 'React, MockAPI',
     project: 'https://youthfulanger.github.io/react-sneakers/',
     github: 'https://github.com/youthfulanger/react-sneakers',
+  },
+  {
+    image: lainMatrixRain,
+    title: 'Lain Matrix Rain',
+    descr: 'Матричный дождь с использованием ванильного javaScript без фреймворков',
+    stack: 'Vanilla javaScript',
+    project: 'https://youthfulanger.github.io/lain-matrix-rain/',
+    github: 'https://github.com/youthfulanger/lain-matrix-rain',
   },
 ]
 
