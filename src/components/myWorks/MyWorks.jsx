@@ -4,6 +4,7 @@ import styles from './MyWorks.module.css'
 
 import eyesClosedImg from '../../img/eyesclosed.png'
 import todoImg from '../../img/todo.png'
+import maybetomorrowImg from '../../img/maybetomorrow.png'
 import moodboardImg from '../../img/moodboard.png'
 import reactsneakersImg from '../../img/react-sneakers.png'
 import lainMatrixRain from '../../img/lain-matrix-rain.png'
@@ -20,11 +21,19 @@ const worksData = [
   {
     image: todoImg,
     title: 'Todo-list',
-    descr:
-      'Обычное приложение todo, планируется расширить функционал. Выполнен деплой на github pages',
+    descr: 'Обычное приложение todo. Сделано просто так. Выполнен деплой на github pages',
     stack: 'React',
     project: 'https://youthfulanger.github.io/todolist-test/',
     github: 'https://github.com/youthfulanger/todolist-test',
+  },
+  {
+    image: maybetomorrowImg,
+    title: 'Maybetomorrow',
+    descr:
+      'Улучшенная версия Todo-list. Является fullstack приложением, поддерживается возможность авторизации пользователей',
+    stack: 'React, NodeJS, MongoDB, Express, GraphQL, JWT',
+    project: 'https://maybetomorrow.herokuapp.com/',
+    github: 'https://github.com/youthfulanger/todo-client-server',
   },
   {
     image: moodboardImg,
