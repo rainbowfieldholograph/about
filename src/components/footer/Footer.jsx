@@ -10,7 +10,7 @@ const Links = () => {
       <h2>Links:</h2>
       <ul className={styles.box}>
         <li>
-          <MyLink href="https://github.com/youthfulanger" icon={faGithub} />
+          <MyLink href="https://github.com/rainbowfieldholograph" icon={faGithub} />
         </li>
         <li>
           <MyLink href="https://t.me/inversedoubts" icon={faTelegram} />

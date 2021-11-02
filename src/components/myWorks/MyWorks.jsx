@@ -3,7 +3,6 @@ import Work from '../work/Work'
 import styles from './MyWorks.module.css'
 
 import eyesClosedImg from '../../img/eyesclosed.png'
-import todoImg from '../../img/todo.png'
 import maybetomorrowImg from '../../img/maybetomorrow.png'
 import moodboardImg from '../../img/moodboard.png'
 import reactsneakersImg from '../../img/react-sneakers.png'
@@ -16,15 +15,7 @@ const worksData = [
     descr: 'Fullstack приложение для прослушивания и загрузки музыки. Выполнен деплой на heroku',
     stack: 'React, MongoDB, NodeJS, Express, GraphQL, ApolloServer, s3 buckets',
     project: 'https://eyes-closed.herokuapp.com/',
-    github: 'https://github.com/youthfulanger/music-playlist-fullstack',
-  },
-  {
-    image: todoImg,
-    title: 'Todo-list',
-    descr: 'Обычное приложение todo. Сделано просто так. Выполнен деплой на github pages',
-    stack: 'React',
-    project: 'https://youthfulanger.github.io/todolist-test/',
-    github: 'https://github.com/youthfulanger/todolist-test',
+    github: 'https://github.com/rainbowfieldholograph/music-playlist-fullstack',
   },
   {
     image: maybetomorrowImg,
@@ -33,15 +24,15 @@ const worksData = [
       'Улучшенная версия Todo-list. Является fullstack приложением, поддерживается возможность авторизации пользователей',
     stack: 'React, NodeJS, MongoDB, Express, GraphQL, JWT',
     project: 'https://maybetomorrow.herokuapp.com/',
-    github: 'https://github.com/youthfulanger/todo-client-server',
+    github: 'https://github.com/rainbowfieldholograph/todo-client-server',
   },
   {
     image: moodboardImg,
     title: 'Moodboard',
     descr: 'Demo версия старой работы на React(+ добавил минимальный функционал)',
     stack: 'React',
-    project: 'https://youthfulanger.github.io/moodboard-old-work/',
-    github: 'https://github.com/youthfulanger/moodboard-old-work',
+    project: 'https://rainbowfieldholograph.github.io/moodboard-old-work/',
+    github: 'https://github.com/rainbowfieldholograph/moodboard-old-work',
   },
   {
     image: reactsneakersImg,
@@ -49,16 +40,17 @@ const worksData = [
     descr:
       'Приложение, сделанное по видеокурсу react sneakers от archakov. Исправлено много багов в изначальном коде (до сих пор много багов, по-тихоньку исправляю)',
     stack: 'React, MockAPI',
-    project: 'https://youthfulanger.github.io/react-sneakers/',
-    github: 'https://github.com/youthfulanger/react-sneakers',
+    project: 'https://rainbowfieldholograph.github.io/react-sneakers/',
+    github: 'https://github.com/rainbowfieldholograph/react-sneakers',
   },
   {
     image: lainMatrixRain,
     title: 'Lain Matrix Rain',
-    descr: 'Матричный дождь с использованием ванильного javaScript без фреймворков',
+    descr:
+      'Матричный дождь с использованием ванильного javaScript без фреймворков. Немного копипаста, немного своего x)',
     stack: 'Vanilla javaScript',
-    project: 'https://youthfulanger.github.io/lain-matrix-rain/',
-    github: 'https://github.com/youthfulanger/lain-matrix-rain',
+    project: 'https://rainbowfieldholograph.github.io/lain-matrix-rain/',
+    github: 'https://github.com/rainbowfieldholograph/lain-matrix-rain',
   },
 ]
 
