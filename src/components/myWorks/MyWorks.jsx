@@ -7,6 +7,7 @@ import maybetomorrowImg from '../../img/maybetomorrow.png'
 import moodboardImg from '../../img/moodboard.png'
 import reactsneakersImg from '../../img/react-sneakers.png'
 import lainMatrixRain from '../../img/lain-matrix-rain.png'
+import waterTransportation from '../../img/water-transportation.png'
 
 const worksData = [
   {
@@ -51,6 +52,14 @@ const worksData = [
     stack: 'Vanilla javaScript',
     project: 'https://rainbowfieldholograph.github.io/lain-matrix-rain/',
     github: 'https://github.com/rainbowfieldholograph/lain-matrix-rain',
+  },
+  {
+    image: waterTransportation,
+    title: 'Water Transportation',
+    descr:
+      'FrontEnd разработочка. +-Adaptive layout. Первая попытка оптимизации React (мемоизация). Исходный код пока что закрыт.',
+    stack: 'React',
+    project: 'https://water-transportation.herokuapp.com',
   },
 ]
 

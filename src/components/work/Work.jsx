@@ -13,8 +13,8 @@ const Work = ({ image, title, descr, stack, project, github }) => {
       </div>
 
       <div className={styles.links}>
-        <MyLink href={project} icon={faEye} />
-        <MyLink href={github} icon={faGithub} />
+        {project && <MyLink href={project} icon={faEye} />}
+        {github && <MyLink href={github} icon={faGithub} />}
       </div>
       <p>{descr}</p>
       <p>Стек технологий: {stack}</p>
