@@ -6,7 +6,6 @@ import eyesClosedImg from '../../img/eyesclosed.png'
 import maybetomorrowImg from '../../img/maybetomorrow.png'
 import moodboardImg from '../../img/moodboard.png'
 import reactsneakersImg from '../../img/react-sneakers.png'
-import lainMatrixRain from '../../img/lain-matrix-rain.png'
 import waterTransportation from '../../img/water-transportation.png'
 
 const worksData = [
@@ -14,7 +13,7 @@ const worksData = [
     image: eyesClosedImg,
     title: 'Eyes-closed',
     descr: 'Fullstack приложение для прослушивания и загрузки музыки. Выполнен деплой на heroku',
-    stack: 'React, MongoDB, NodeJS, Express, GraphQL, ApolloServer, s3 buckets',
+    stack: 'React, MongoDB, NodeJS, Express, GraphQL, ApolloServer, ApolloCilent, s3 buckets',
     project: 'https://eyes-closed.herokuapp.com/',
     github: 'https://github.com/rainbowfieldholograph/music-playlist-fullstack',
   },
@@ -23,7 +22,7 @@ const worksData = [
     title: 'Maybetomorrow',
     descr:
       'Улучшенная версия Todo-list. Является fullstack приложением, поддерживается возможность авторизации пользователей',
-    stack: 'React, NodeJS, MongoDB, Express, GraphQL, JWT',
+    stack: 'React, NodeJS, MongoDB, Express, GraphQL, ApolloCilent, JWT',
     project: 'https://maybetomorrow.herokuapp.com/',
     github: 'https://github.com/rainbowfieldholograph/todo-client-server',
   },
@@ -45,15 +44,6 @@ const worksData = [
     github: 'https://github.com/rainbowfieldholograph/react-sneakers',
   },
   {
-    image: lainMatrixRain,
-    title: 'Lain Matrix Rain',
-    descr:
-      'Матричный дождь с использованием ванильного javaScript без фреймворков. Немного копипаста, немного своего x)',
-    stack: 'Vanilla javaScript',
-    project: 'https://rainbowfieldholograph.github.io/lain-matrix-rain/',
-    github: 'https://github.com/rainbowfieldholograph/lain-matrix-rain',
-  },
-  {
     image: waterTransportation,
     title: 'Water Transportation',
     descr:
@@ -63,29 +53,25 @@ const worksData = [
   },
 ]
 
-const MyWorks = () => {
-  return (
-    <section className={styles.wrapper}>
-      <div className={styles.container}>
-        <h1 className={styles.title}>My works example</h1>
-        <ul className={styles.myWorks}>
-          {worksData.map((item, index) => {
-            return (
-              <Work
-                key={index}
-                image={item.image}
-                title={item.title}
-                descr={item.descr}
-                stack={item.stack}
-                project={item.project}
-                github={item.github}
-              />
-            )
-          })}
-        </ul>
-      </div>
-    </section>
-  )
-}
+const MyWorks = () => (
+  <section className={styles.wrapper}>
+    <div className={styles.container}>
+      <h1 className={styles.title}>My works example</h1>
+      <ul className={styles.myWorks}>
+        {worksData.map((item, index) => (
+          <Work
+            key={index}
+            image={item.image}
+            title={item.title}
+            descr={item.descr}
+            stack={item.stack}
+            project={item.project}
+            github={item.github}
+          />
+        ))}
+      </ul>
+    </div>
+  </section>
+)
 
 export default MyWorks

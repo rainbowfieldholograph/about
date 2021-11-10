@@ -11,6 +11,7 @@ import {
 import SkillsItem from '../skillsItems/SkillsItem'
 import mongoImg from '../../img/mongo.png'
 import graphqlImg from '../../img/graphql.png'
+import apolloImg from '../../img/apollo.png'
 
 const skillsData = [
   { title: 'HTML', icon: faHtml5 },
@@ -20,6 +21,7 @@ const skillsData = [
   { title: 'NodeJS', icon: faNode },
   { title: 'MongoDB', icon: mongoImg, fontawesome: false },
   { title: 'GraphQL', icon: graphqlImg, fontawesome: false, size: 40 },
+  { title: 'Apollo Client', icon: apolloImg, fontawesome: false, size: 40 },
   { title: 'S3 Buckets', icon: faAws },
 ]
 
