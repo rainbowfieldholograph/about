@@ -1,5 +1,5 @@
 import './App.css'
-import './defaultStyles.css'
+import './globals.css'
 import Welcome from './components/welcome/Welcome'
 import Skills from './components/skills/Skills'
 import MyWorks from './components/myWorks/MyWorks'

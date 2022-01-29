@@ -1,11 +1,6 @@
-.item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .box {
-  display: flex;
+  display: grid;
   gap: 20px;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
 }

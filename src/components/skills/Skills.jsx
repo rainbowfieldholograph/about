@@ -1,6 +1,6 @@
 import styles from './Skills.module.css'
 import SkillsItem from '../skillsItems/SkillsItem'
-import { skillsData } from '../../appData/SkillsData/SkillsData'
+import { skillsData } from '../../appData/skillsData/SkillsData'
 
 const Skills = () => {
   return (
@@ -8,13 +8,14 @@ const Skills = () => {
       <h1 className={styles.title}>My Skills:</h1>
       <ul className={styles.list}>
         {skillsData.map((item, index) => (
-          <SkillsItem
-            key={index}
-            title={item.title}
-            iconComponent={item.iconComponent}
-            fontawesome={item.fontawesome}
-            size={item.size}
-          />
+          <li key={index}>
+            <SkillsItem
+              title={item.title}
+              iconComponent={item.iconComponent}
+              fontawesome={item.fontawesome}
+              size={item.size}
+            />
+          </li>
         ))}
       </ul>
       <div className={styles.descr}>

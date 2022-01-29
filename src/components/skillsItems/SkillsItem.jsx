@@ -6,13 +6,11 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 const SkillsItem = ({ title, iconComponent }) => {
   console.log(iconComponent)
   return (
-    <li className={styles.item}>
-      <div className={styles.box}>
-        <p>{title}</p>
-        {iconComponent}
-      </div>
+    <div className={styles.box}>
+      <p className={styles.title}>{title}</p>
+      {iconComponent}
       <FontAwesomeIcon icon={faCheck} />
-    </li>
+    </div>
   )
 }
 

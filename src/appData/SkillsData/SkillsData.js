@@ -10,7 +10,6 @@ import mongoImg from '../../img/mongo.png'
 import graphqlImg from '../../img/graphql.png'
 import apolloImg from '../../img/apollo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import styles from './SkillsData.module.css'
 
 export const skillsData = [
   {
@@ -36,38 +35,20 @@ export const skillsData = [
   {
     title: 'MongoDB',
     iconComponent: (
-      <img
-        className={styles.reverseColor}
-        src={mongoImg}
-        alt="MongoDB"
-        width={30}
-        height={30}
-      />
+      <img className="reverseColor" src={mongoImg} alt="MongoDB" width={30} height={30} />
     ),
   },
   {
     title: 'GraphQL',
     iconComponent: (
-      <img
-        className={styles.reverseColor}
-        src={graphqlImg}
-        alt="MongoDB"
-        width={40}
-        height={40}
-      />
+      <img className="reverseColor" src={graphqlImg} alt="MongoDB" width={40} height={40} />
     ),
     size: 40,
   },
   {
     title: 'Apollo Client',
     iconComponent: (
-      <img
-        className={styles.reverseColor}
-        src={apolloImg}
-        alt="MongoDB"
-        width={40}
-        height={40}
-      />
+      <img className="reverseColor" src={apolloImg} alt="MongoDB" width={40} height={40} />
     ),
     size: 40,
   },
