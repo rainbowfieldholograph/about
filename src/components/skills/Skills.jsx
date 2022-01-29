@@ -1,6 +1,6 @@
 import styles from './Skills.module.css'
 import SkillsItem from '../skillsItems/SkillsItem'
-import { skillsData } from '../../appData/skillsData/SkillsData'
+import { skillsData } from '../../appData/skillsData/skillsData'
 
 const Skills = () => {
   return (
@@ -13,6 +13,7 @@ const Skills = () => {
               title={item.title}
               iconComponent={item.iconComponent}
               fontawesome={item.fontawesome}
+              description={item.description}
               size={item.size}
             />
           </li>

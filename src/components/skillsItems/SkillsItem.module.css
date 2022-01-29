@@ -1,6 +1,21 @@
 .box {
   display: grid;
   gap: 20px;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto auto 1fr auto;
   align-items: center;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.chevron {
+  transition: all 0.2s ease-out;
+}
+
+.details[open] .chevron {
+  transform: rotate(90deg);
+  transition: all 0.2s ease-out;
+}
+
+.inner {
+  margin-top: 0.5rem;
 }

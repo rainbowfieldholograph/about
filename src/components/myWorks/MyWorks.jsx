@@ -1,5 +1,5 @@
 import React from 'react'
-import { worksData } from '../../appData/worksData/WorksData'
+import { worksData } from '../../appData/worksData/worksData'
 import Work from '../work/Work'
 import styles from './MyWorks.module.css'
 

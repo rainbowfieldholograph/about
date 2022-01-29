@@ -44,7 +44,7 @@ export const worksData = [
     image: waterTransportation,
     title: 'Water Transportation',
     descr:
-      'FrontEnd разработочка. +-Adaptive layout. Первая попытка оптимизации React (мемоизация). Исходный код пока что закрыт.',
+      'FrontEnd разработочка, делалось в ноябре 2021. +-Adaptive layout, no accessability. Первая попытка оптимизации React (мемоизация). Исходный код пока что закрыт (в личку за ссылкой). ВНИМАНИЕ! Все кнопки в хедере нажимаются (даже кружок), так же на странице расписания, можно нажать "Выбрать", там будет большая форма. Задеплоено на heroku',
     stack: 'React',
     project: 'https://water-transportation.herokuapp.com',
   },

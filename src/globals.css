@@ -77,3 +77,7 @@ img {
 .reverseColor {
   filter: invert(1);
 }
+/* 
+.darken {
+  mix-blend-mode: overlay;
+} */
