@@ -3,16 +3,13 @@ import styles from './SkillsItem.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
-const SkillsItem = ({ title, icon, fontawesome = true, size = 30 }) => {
+const SkillsItem = ({ title, iconComponent }) => {
+  console.log(iconComponent)
   return (
     <li className={styles.item}>
       <div className={styles.box}>
         <p>{title}</p>
-        {fontawesome ? (
-          <FontAwesomeIcon icon={icon} />
-        ) : (
-          <img className={styles.img} src={icon} alt="skill" width={size} height={size} />
-        )}
+        {iconComponent}
       </div>
       <FontAwesomeIcon icon={faCheck} />
     </li>

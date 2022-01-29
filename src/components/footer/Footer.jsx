@@ -6,7 +6,7 @@ import styles from './Footer.module.css'
 
 const Links = () => {
   return (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <h2>Links:</h2>
       <ul className={styles.box}>
         <li>
@@ -16,7 +16,7 @@ const Links = () => {
           <MyLink href="https://t.me/inversedoubts" icon={faTelegram} />
         </li>
       </ul>
-    </div>
+    </footer>
   )
 }
 

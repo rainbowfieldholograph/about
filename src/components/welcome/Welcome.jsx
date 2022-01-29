@@ -9,7 +9,6 @@ const Welcome = () => {
           <h1 className={styles.text}>Привет</h1>
           <p className={styles.text}>Я являюсь программистом-веб разработчиком.</p>
           <p className={styles.text}>Данное приложение - это моё небольшое портфолио.</p>
-          <p className={styles.text}>ps. im not designer.</p>
         </div>
       </div>
     </section>
