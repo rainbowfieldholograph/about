@@ -31,6 +31,10 @@
   align-items: center;
 }
 
+.text:first-child {
+  font-size: 2.5rem;
+}
+
 .text:not(:last-child) {
   margin-bottom: 20px;
 }
