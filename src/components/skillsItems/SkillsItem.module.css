@@ -7,6 +7,12 @@
   line-height: 1;
 }
 
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .chevron {
   transition: all 0.2s ease-out;
 }
