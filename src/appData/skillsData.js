@@ -36,7 +36,7 @@ export const skillsData = {
         title: 'TypeScript',
         iconComponent: <img src={tsImg} alt="Typescript" width={30} height={30} />,
         description:
-          'Имеются начальные знания TypeScript: строгая типизация, кастомные типы, интерфейсы, enum, немножко tsconfig.',
+          'Имеются начальные знания TypeScript: строгая типизация, кастомные типы, интерфейсы, enum, поверхностно знаком с настройкой tsconfig.',
       },
     ],
   },
@@ -47,7 +47,7 @@ export const skillsData = {
         title: 'HTML',
         iconComponent: <FontAwesomeIcon icon={faHtml5} />,
         description:
-          'Есть опыт и знания семантической вёрстки, так же доступность (она же accessability). Немного знаю про aria.',
+          'Есть опыт и знания семантической вёрстки, так же доступность (accessability).',
       },
       {
         title: 'CSS',
@@ -59,18 +59,19 @@ export const skillsData = {
         title: 'ReactJS',
         iconComponent: <FontAwesomeIcon icon={faReact} />,
         description:
-          'В реакте чувствую себя плюс-минус уверенно, это основной фреймворк (или библиотека, как хотите). Основные знания, хуки, библиотеки, JSX, функциональный подход, немного мемоизации.',
+          'В реакте чувствую себя плюс-минус уверенно. Основные знания, хуки, библиотеки, JSX, функциональный подход, немного мемоизации.',
       },
       {
         title: 'SCSS',
         iconComponent: <FontAwesomeIcon icon={faSass} />,
         description:
-          'Есть небольшой опыт работы с данным препроцессором. Переменные, вложенность.',
+          'Когда-то был небольшой опыт работы с данным препроцессором. Знания начальные: переменные, вложенность.',
       },
       {
         title: 'React Native',
         iconComponent: <FontAwesomeIcon icon={faReact} />,
-        description: 'Есть опыт разработки мобильных приложений на React Native.',
+        description:
+          'Есть опыт разработки мобильных приложений на React Native с использованием дополнительных библиотек.',
       },
       {
         title: 'React Material UI',
@@ -204,7 +205,7 @@ export const skillsData = {
           />
         ),
         description:
-          'Сделал пару серверных приложений (pet projects) с использованием GraphQL. Умею работать с playground. + ApolloServer',
+          'Сделал пару серверных приложений (pet projects) с использованием GraphQL. Умею работать с playground. Так же знаком с ApolloServer.',
       },
       {
         title: 'Prisma',
@@ -225,7 +226,7 @@ export const skillsData = {
           />
         ),
         description:
-          'Попытался использовать, не понравилось(не осилил), предпочел использовать Prisma.',
+          'Попытался использовать, не понравилось (не осилил), предпочел использовать Prisma. ИМХО синтаксис выглядит страшно и громоздко.',
       },
       {
         title: 'AWS S3 Buckets',
@@ -241,7 +242,7 @@ export const skillsData = {
       {
         title: 'Git',
         iconComponent: <FontAwesomeIcon icon={faGitSquare} />,
-        description: 'Основные команды.',
+        description: 'Основные команды. Имеется опыт (смотрите github профиль).',
       },
       {
         title: 'Figma',
