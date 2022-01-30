@@ -7,12 +7,12 @@ import {
   faAws,
   faSass,
 } from '@fortawesome/free-brands-svg-icons'
-import mongoImg from '../../img/mongo.png'
-import graphqlImg from '../../img/graphql.png'
-import apolloImg from '../../img/apollo.png'
-import tsImg from '../../img/typescript.png'
-import MUIImg from '../../img/materialui.png'
-import webpackImg from '../../img/webpack.png'
+import mongoImg from '../img/mongo.png'
+import graphqlImg from '../img/graphql.png'
+import apolloImg from '../img/apollo.png'
+import tsImg from '../img/typescript.png'
+import MUIImg from '../img/materialui.png'
+import webpackImg from '../img/webpack.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const skillsData = [

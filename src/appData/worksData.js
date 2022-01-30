@@ -2,7 +2,7 @@
 // import maybetomorrowImg from '../../img/maybetomorrow.png'
 // import moodboardImg from '../../img/moodboard.png'
 // import reactsneakersImg from '../../img/react-sneakers.png'
-import waterTransportation from '../../img/water-transportation.png'
+import waterTransportation from '../img/water-transportation.png'
 
 export const worksData = [
   // {

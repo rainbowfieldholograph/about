@@ -9,10 +9,14 @@ const Links = () => {
       <h2>Links:</h2>
       <ul className={styles.box}>
         <li>
-          <IconLink icon={faGithub} href="https://github.com/rainbowfieldholograph" />
+          <IconLink
+            aria-label="github"
+            icon={faGithub}
+            href="https://github.com/rainbowfieldholograph"
+          />
         </li>
         <li>
-          <IconLink href="https://t.me/duvetduvet" icon={faTelegram} />
+          <IconLink aria-label="telegram" href="https://t.me/duvetduvet" icon={faTelegram} />
         </li>
       </ul>
     </footer>

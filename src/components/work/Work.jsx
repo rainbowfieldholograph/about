@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Work.module.css'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
