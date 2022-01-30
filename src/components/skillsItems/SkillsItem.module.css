@@ -1,10 +1,7 @@
-.box {
+.items {
   display: grid;
-  gap: 20px;
-  grid-template-columns: auto auto 1fr auto;
-  align-items: center;
-  cursor: pointer;
-  line-height: 1;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
 }
 
 .title {
@@ -13,15 +10,12 @@
   text-overflow: ellipsis;
 }
 
-.chevron {
-  transition: all 0.2s ease-out;
+.text {
+  word-break: break-word;
 }
 
-.details[open] .chevron {
-  transform: rotate(90deg);
-  transition: all 0.2s ease-out;
-}
-
-.inner {
-  margin-top: 0.5rem;
+@supports (hyphens: auto) {
+  .text {
+    hyphens: auto;
+  }
 }

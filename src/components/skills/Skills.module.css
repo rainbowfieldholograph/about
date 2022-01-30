@@ -24,31 +24,23 @@
   background: linear-gradient(180deg, rgba(11, 29, 38, 0) 5%, rgba(20, 29, 38, 1) 100%);
 }
 
-.list {
-  width: 100%;
-  max-width: 700px;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
 .title {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 
-.descr {
-  margin-top: 50px;
-  max-width: 600px;
+.container {
+  max-width: 900px;
   width: 100%;
-  color: rgb(11, 29, 38);
-  border: 3px solid white;
-  text-align: center;
-  transition: all 0.4s ease-out 0s;
-  padding: 0.5em;
 }
 
-.descr:hover {
-  color: white;
-  transition: all 0.8s ease-out 0s;
+.skillsList > *:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 450px) {
+  .wrapper {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }

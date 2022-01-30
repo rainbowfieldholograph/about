@@ -1,0 +1,39 @@
+.details {
+  width: 100%;
+  padding: 1rem;
+  background-color: rgb(44, 55, 66);
+  border-radius: 1rem;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.chevron {
+  transition: all 0.2s ease-out;
+}
+
+.details[open] > .button > .chevron {
+  transform: rotate(90deg);
+  transition: all 0.2s ease-out;
+}
+
+.details[open] > .button {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 1em;
+}
+
+.details[open] > .dropdown {
+  animation: slide 0.3s ease-in-out;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translate(0, -10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
