@@ -4,7 +4,9 @@
   --accordion-border-radius: 1rem;
   --accordion-default-padding: 1rem;
   --accordion-border-width: 2px;
-  --accordion-chevorn-animation: all 0.2s ease-out;
+  --accordion-chevorn-animation: 0.2s ease-out;
+  --accordion-slide-animation: 0.3s ease-in-out;
+
   width: 100%;
   background-color: var(--accordion-default-color);
   border-radius: var(--accordion-border-radius);
@@ -22,7 +24,7 @@
 
 .details[open] > .button > .chevron {
   transform: rotate(90deg);
-  transition: var(--accordion-chevorn-animation);
+  transition: transform var(--accordion-chevorn-animation);
 }
 
 .details[open] > .button {
@@ -39,7 +41,7 @@
 }
 
 .details[open] > .dropdown {
-  animation: slide 0.3s ease-in-out;
+  animation: slide var(--accordion-slide-animation);
 }
 
 @keyframes slide {
