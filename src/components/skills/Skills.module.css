@@ -29,7 +29,7 @@
   max-width: 700px;
   display: flex;
   flex-direction: column;
-  gap: 1.4rem;
+  gap: 2rem;
 }
 
 .title {

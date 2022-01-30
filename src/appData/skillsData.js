@@ -20,6 +20,7 @@ import webpackImg from '../img/webpack.png'
 import prismaImg from '../img/prisma.png'
 import sequelizeImg from '../img/sequelize.png'
 import herokuImg from '../img/heroku.png'
+import reduxImg from '../img/redux.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const skillsData = [
@@ -37,7 +38,7 @@ export const skillsData = [
   {
     title: 'JavaScript',
     iconComponent: <FontAwesomeIcon icon={faJsSquare} />,
-    description: 'Основы, ES6+, немного работы с DOM, немного ООП, работа с API.',
+    description: 'Основы, ES6+, немного работы с DOM, немного ООП, работа с http.',
   },
   {
     title: 'ReactJS',
@@ -139,7 +140,9 @@ export const skillsData = [
   },
   {
     title: 'Redux / Redux Toolkit',
-    iconComponent: <FontAwesomeIcon icon={faNode} />,
+    iconComponent: (
+      <img className="reverseColor" src={reduxImg} alt="Redux" width={30} height={30} />
+    ),
     description:
       'Совсем недавно начал учить Redux / Redux Toolkit. Пока что, нахожусь в процессе обучения.',
   },
