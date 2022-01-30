@@ -1,5 +1,5 @@
 import React from 'react'
-import MyLink from '../myLink/MyLink'
+import IconLink from '../myLink/MyLink'
 import { faGithub, faTelegram } from '@fortawesome/free-brands-svg-icons'
 import styles from './Footer.module.css'
 
@@ -9,10 +9,10 @@ const Links = () => {
       <h2>Links:</h2>
       <ul className={styles.box}>
         <li>
-          <MyLink href="https://github.com/rainbowfieldholograph" icon={faGithub} />
+          <IconLink icon={faGithub} href="https://github.com/rainbowfieldholograph" />
         </li>
         <li>
-          <MyLink href="https://t.me/duvetduvet" icon={faTelegram} />
+          <IconLink href="https://t.me/duvetduvet" icon={faTelegram} />
         </li>
       </ul>
     </footer>

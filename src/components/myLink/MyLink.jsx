@@ -2,12 +2,12 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from './MyLink.module.css'
 
-const MyLink = ({ href, icon }) => {
+const IconLink = ({ icon, ...rest }) => {
   return (
-    <a rel="noreferrer" href={href} target="_blank">
+    <a rel="noreferrer" target="_blank" {...rest}>
       <FontAwesomeIcon className={styles.icon} color="white" icon={icon} />
     </a>
   )
 }
 
-export default MyLink
+export default IconLink
