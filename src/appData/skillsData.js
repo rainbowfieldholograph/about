@@ -25,8 +25,7 @@ export const skillsData = [
   {
     title: 'CSS',
     iconComponent: <FontAwesomeIcon icon={faCss3Alt} />,
-    description:
-      'Адаптивная вёрстка, опыт в работе с Flexbox, так же немного знаком с grid (самую малость).',
+    description: 'Адаптивная вёрстка, опыт в работе с Flexbox, так же немного знаком с grid.',
   },
   {
     title: 'JavaScript',
@@ -34,7 +33,7 @@ export const skillsData = [
     description: 'Основы, ES6+, немного работы с DOM, немного ООП.',
   },
   {
-    title: 'React',
+    title: 'ReactJS',
     iconComponent: <FontAwesomeIcon icon={faReact} />,
     description:
       'В реакте чувствую себя плюс-минус уверенно, это основной фреймворк (или библиотека, как хотите). Основные знания, хуки, библиотеки, JSX, функциональный подход, немного мемоизации.',
@@ -49,7 +48,7 @@ export const skillsData = [
     title: 'TypeScript',
     iconComponent: <img src={tsImg} alt="Typescript" width={30} height={30} />,
     description:
-      'Имеются начальные знания TypeScript: типы, кастомные типы, интерфейсы, enum, немножко tsconfig. Знаю, что есть еще дополнительный функционал для ООП.',
+      'Имеются начальные знания TypeScript: строгая типизация, кастомные типы, интерфейсы, enum, немножко tsconfig.',
   },
   {
     title: 'React Native',
@@ -61,7 +60,7 @@ export const skillsData = [
     iconComponent: (
       <img className="reverseColor" src={MUIImg} alt="MongoDB" width={30} height={30} />
     ),
-    description: 'Потыкал немного, что да как, вроде немного разобрался.',
+    description: 'Попробовал, вроде разобрался.',
   },
   {
     title: 'Webpack',
@@ -69,7 +68,7 @@ export const skillsData = [
       <img className="reverseColor" src={webpackImg} alt="MongoDB" width={30} height={30} />
     ),
     description:
-      'Знаю что это, и немного понимаю как с ним можно работать. Но опыта нормальной настройки webpack нет.',
+      'Знаю что это, и немного понимаю как с ним можно работать. Но опыта самостоятельной настройки webpack нет.',
   },
   {
     title: 'Vite',
@@ -93,7 +92,7 @@ export const skillsData = [
       </svg>
     ),
     description:
-      'Могу ввести в консоли: npm init vite@latest и выбрать нужные мне параметры. Есть небольшой опыт работы с ним. Он мне нравится своей простотой и скоростью.',
+      'Могу ввести в консоли: npm init vite@latest и выбрать нужные мне параметры. Есть небольшой опыт работы с ним.',
   },
   {
     title: 'NodeJS',
@@ -113,7 +112,7 @@ export const skillsData = [
       <img className="reverseColor" src={graphqlImg} alt="MongoDB" width={40} height={40} />
     ),
     description:
-      'Сделал пару серверных приложений (pet projects) с использованием GraphQL. Умею работать с playground. +ApolloServer (самую малость, уже и забыл, что такое вообще существовало)',
+      'Сделал пару серверных приложений (pet projects) с использованием GraphQL. Умею работать с playground. + ApolloServer',
   },
   {
     title: 'Apollo Client',

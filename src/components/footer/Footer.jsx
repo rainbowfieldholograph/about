@@ -1,23 +1,18 @@
 import React from 'react'
 import IconLink from '../myLink/MyLink'
-import { faGithub, faTelegram } from '@fortawesome/free-brands-svg-icons'
 import styles from './Footer.module.css'
+import { linksData } from '../../appData/linksData'
 
 const Links = () => {
   return (
     <footer className={styles.footer}>
       <h2>Links:</h2>
       <ul className={styles.box}>
-        <li>
-          <IconLink
-            aria-label="github"
-            icon={faGithub}
-            href="https://github.com/rainbowfieldholograph"
-          />
-        </li>
-        <li>
-          <IconLink aria-label="telegram" href="https://t.me/duvetduvet" icon={faTelegram} />
-        </li>
+        {linksData.map((skill) => (
+          <li>
+            <IconLink aria-label={skill.title} icon={skill.icon} href={skill.linkTo} />
+          </li>
+        ))}
       </ul>
     </footer>
   )
