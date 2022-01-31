@@ -1,9 +1,11 @@
+import styles from './WorkInfo.module.css'
+
 export const WorkInfo = ({ image, title, descr, stack, projectLink, githubLink }) => {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <img src={image} alt={title} />
-      <h1>{title}</h1>
-      <h2>{stack}</h2>
+      <h2>{title}</h2>
+      <h3>{stack}</h3>
       <p>{descr}</p>
     </div>
   )

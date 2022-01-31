@@ -3,13 +3,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: var(--color-white);
-  padding: var(--default-padding);
-  max-width: 600px;
-  width: 100%;
-  min-height: 600px;
+  background-color: var(--color-primary);
+  border-radius: var(--default-border-radius);
+  padding: 0 var(--default-padding) var(--default-padding) var(--default-padding);
   z-index: 10;
-  color: var(--color-primary);
+  color: var(--color-white);
+  overflow-y: auto;
+  overflow-x: hidden;
+  word-break: break-word;
+  border: 3px solid var(--color-primary);
 }
 
 .overlay {
@@ -22,8 +24,20 @@
   z-index: 9;
 }
 
+.closeButtonWrapper {
+  padding-top: var(--extra-small-padding);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: right;
+}
+
 .closeButton {
-  position: absolute;
-  right: 20px;
-  top: 15px;
+  color: var(--color-secondary);
+}
+
+@supports (hyphens: auto) {
+  .modal {
+    hyphens: auto;
+  }
 }

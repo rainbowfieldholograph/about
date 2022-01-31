@@ -1,0 +1,6 @@
+.wrapper {
+  display: grid;
+  gap: var(--small-distance-between);
+  text-align: center;
+  font-size: var(--font-size-extra-small);
+}
