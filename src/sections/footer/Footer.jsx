@@ -1,9 +1,9 @@
 import React from 'react'
-import IconLink from '../myLink/MyLink'
+import IconLink from '../../components/myLink/MyLink'
 import styles from './Footer.module.css'
 import { linksData } from '../../appData/linksData'
 
-const Links = () => {
+export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <h2>Links:</h2>
@@ -17,5 +17,3 @@ const Links = () => {
     </footer>
   )
 }
-
-export default Links

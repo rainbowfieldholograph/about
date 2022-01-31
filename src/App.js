@@ -1,15 +1,17 @@
 import './App.css'
 import './globals.css'
-import Welcome from './components/welcome/Welcome'
-import Skills from './components/skills/Skills'
-import MyWorks from './components/myWorks/MyWorks'
-import Footer from './components/footer/Footer'
+import { Footer } from './sections/footer/Footer'
+import { MyWorks } from './sections/myWorks/MyWorks'
+import { Skills } from './sections/skills/Skills'
+import { Welcome } from './sections/welcome/Welcome'
 
 const App = () => (
   <div className="container">
     <Welcome />
-    <Skills />
-    <MyWorks />
+    <main className="contentSection">
+      <Skills />
+      <MyWorks />
+    </main>
     <Footer />
   </div>
 )

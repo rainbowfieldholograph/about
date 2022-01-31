@@ -1,7 +1,6 @@
-import React from 'react'
 import styles from './Welcome.module.css'
 
-const Welcome = () => {
+export const Welcome = () => {
   return (
     <section className={styles.wrapper}>
       <div className={styles.inner}>
@@ -14,5 +13,3 @@ const Welcome = () => {
     </section>
   )
 }
-
-export default Welcome

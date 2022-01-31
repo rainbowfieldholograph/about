@@ -1,21 +1,21 @@
 .details {
-  --accordion-default-color: rgb(44, 55, 66);
-  --accordion-active-color: rgb(68, 86, 104);
-  --accordion-border-radius: 1rem;
-  --accordion-default-padding: 1rem;
+  --accordion-default-color: var(--color-primary);
+  --accordion-active-color: var(--color-seconday);
   --accordion-border-width: 2px;
   --accordion-chevorn-animation: 0.2s ease-out;
   --accordion-slide-animation: 0.3s ease-in-out;
 
   width: 100%;
   background-color: var(--accordion-default-color);
-  border-radius: var(--accordion-border-radius);
+  border-radius: var(--default-border-radius);
   overflow: hidden;
 }
 
 .button {
   cursor: pointer;
-  padding: var(--accordion-default-padding);
+  padding: var(--default-padding);
+  border: var(--accordion-border-width) solid var(--accordion-active-color);
+  border-radius: var(--default-border-radius);
 }
 
 .chevron {
@@ -29,15 +29,16 @@
 
 .details[open] > .button {
   background-color: var(--accordion-active-color);
+  border-radius: 0;
 }
 
 .dropdown {
-  padding: var(--accordion-default-padding);
+  padding: var(--small-padding);
   border-left: var(--accordion-border-width) solid var(--accordion-active-color);
   border-bottom: var(--accordion-border-width) solid var(--accordion-active-color);
   border-right: var(--accordion-border-width) solid var(--accordion-active-color);
-  border-bottom-left-radius: var(--accordion-border-radius);
-  border-bottom-right-radius: var(--accordion-border-radius);
+  border-bottom-left-radius: var(--default-border-radius);
+  border-bottom-right-radius: var(--default-border-radius);
 }
 
 .details[open] > .dropdown {
@@ -52,5 +53,11 @@
   100% {
     opacity: 1;
     transform: translate(0, 0);
+  }
+}
+
+@media (max-width: 500px) {
+  .dropdown {
+    padding: var(--extra-small-padding);
   }
 }

@@ -38,6 +38,7 @@ input::-ms-clear {
 }
 
 button {
+  color: inherit;
   cursor: pointer;
 }
 
@@ -66,4 +67,36 @@ img {
 
 .reverseColor {
   filter: invert(1);
+}
+
+/* Global Variables */
+
+html {
+  --container-max-width: 1000px;
+  --distance-after-section: clamp(100px, 30vh, 300px);
+  --default-border-radius: 1rem;
+
+  --small-distance-between: 0.5rem;
+  --default-distance-between: 1rem;
+  --large-distance-between: 1.5rem;
+  --extra-large-distance-between: 2rem;
+
+  --extra-small-padding: 0.2rem;
+  --small-padding: 0.5rem;
+  --default-padding: 1rem;
+
+  --color-primary: rgb(44, 55, 66);
+  --color-seconday: rgb(68, 86, 104);
+
+  --content-background-color: rgb(20, 29, 38);
+  --color-white: #fff;
+
+  --font-color-primary: #fff;
+  --font-size-small: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2rem;
+  --font-size-extra-large: 2.5rem;
+
+  color: var(--font-color-primary);
+  font-size: var(--font-size-large);
 }

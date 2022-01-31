@@ -1,0 +1,15 @@
+.footer {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: var(--default-distance-between);
+  background: linear-gradient(180deg, rgba(20, 29, 38, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  padding-top: var(--large-distance-between);
+  padding-bottom: var(--large-distance-between);
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: var(--default-distance-between);
+}
