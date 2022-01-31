@@ -1,5 +1,4 @@
-import React from 'react'
-import IconLink from '../../components/myLink/MyLink'
+import { IconLink } from '../../components/iconLink/IconLink'
 import styles from './Footer.module.css'
 import { linksData } from '../../appData/linksData'
 

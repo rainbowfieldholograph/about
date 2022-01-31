@@ -85,9 +85,8 @@ html {
 
   --extra-small-padding: 0.2rem;
   --small-padding: 0.5rem;
-  --default-padding: 1rem;
-  --large-padding: 2rem;
-  --extra-large-padding: 3rem;
+  --default-padding: 0.75rem;
+  --large-padding: 1.75rem;
 
   --color-primary: rgb(44, 55, 66);
   --color-seconday: rgb(68, 86, 104);
