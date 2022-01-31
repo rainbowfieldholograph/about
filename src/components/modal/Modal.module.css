@@ -1,0 +1,29 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-white);
+  padding: var(--default-padding);
+  max-width: 600px;
+  width: 100%;
+  min-height: 600px;
+  z-index: 10;
+  color: var(--color-primary);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9;
+}
+
+.closeButton {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}

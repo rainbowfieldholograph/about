@@ -6,7 +6,7 @@ const SkillsItem = ({ title, iconComponent, description }) => {
     <Accordion
       summaryComponent={
         <>
-          <p className={styles.title}>{title}</p>
+          <h3 className={styles.title}>{title}</h3>
           {iconComponent}
         </>
       }
