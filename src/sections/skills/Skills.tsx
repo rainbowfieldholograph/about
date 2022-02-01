@@ -9,8 +9,10 @@ export const Skills: FC = (): JSX.Element => {
     <SectionContainer className={styles.wrapper}>
       <h1 className={styles.title}>My Skills:</h1>
       <ul className={styles.skillsList}>
-        {skillsData.map((category) => (
-          <SkillCategory skills={category.skills} title={category.title} />
+        {skillsData.map((category, index) => (
+          <li key={index}>
+            <SkillCategory skills={category.skills} title={category.title} />
+          </li>
         ))}
       </ul>
     </SectionContainer>

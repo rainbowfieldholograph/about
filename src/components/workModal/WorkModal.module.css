@@ -4,3 +4,11 @@
   text-align: center;
   font-size: var(--font-size-extra-small);
 }
+
+.linksContainer {
+  font-size: var(--font-size-small);
+}
+
+.linksContainer > *:not(:last-child) {
+  margin-right: var(--small-distance-between);
+}

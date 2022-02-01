@@ -48,5 +48,6 @@ export const worksData: IWorkData[] = [
       'FrontEnd разработочка, делалось в ноябре 2021, по макету с Figma. Adaptive layout, no accessability. Первая попытка оптимизации React (мемоизация). Ссылку на исходный код можно получить, написав мне в лс. Важная информация! Все кнопки в хедере нажимаются (даже кружок), так же на странице расписания, можно нажать "Выбрать", там будет большая форма. Задеплоено на heroku',
     stack: 'React',
     projectLink: 'https://water-transportation.herokuapp.com',
+    githubLink: 'https://youtube.com',
   },
 ]
