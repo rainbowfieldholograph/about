@@ -105,4 +105,5 @@ html {
 
   color: var(--font-color-primary);
   font-size: var(--font-size-large);
+  font-family: 'Josefin Sans', sans-serif;
 }

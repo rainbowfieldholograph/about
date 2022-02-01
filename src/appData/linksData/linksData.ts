@@ -1,6 +1,7 @@
 import { faGithub, faTelegram } from '@fortawesome/free-brands-svg-icons'
+import { ILinkData } from './linksData.interface'
 
-export const linksData = [
+export const linksData: ILinkData[] = [
   {
     title: 'github',
     icon: faGithub,

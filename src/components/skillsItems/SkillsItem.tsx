@@ -1,7 +1,13 @@
+import { FC } from 'react'
 import { Accordion } from '../accordion/Accordion'
 import styles from './SkillsItem.module.css'
+import { SkillsItemProps } from './SkillsItem.props'
 
-const SkillsItem = ({ title, iconComponent, description }) => {
+const SkillsItem: FC<SkillsItemProps> = ({
+  title,
+  iconComponent,
+  description,
+}: SkillsItemProps): JSX.Element => {
   return (
     <Accordion
       summaryComponent={

@@ -11,20 +11,21 @@ import {
   faGitSquare,
   faLinux,
 } from '@fortawesome/free-brands-svg-icons'
-import mongoImg from '../img/mongo.png'
-import graphqlImg from '../img/graphql.png'
-import apolloImg from '../img/apollo.png'
-import tsImg from '../img/typescript.png'
-import MUIImg from '../img/materialui.png'
-import webpackImg from '../img/webpack.png'
-import prismaImg from '../img/prisma.png'
-import sequelizeImg from '../img/sequelize.png'
-import herokuImg from '../img/heroku.png'
-import reduxImg from '../img/redux.png'
+import mongoImg from '../../img/mongo.png'
+import graphqlImg from '../../img/graphql.png'
+import apolloImg from '../../img/apollo.png'
+import tsImg from '../../img/typescript.png'
+import MUIImg from '../../img/materialui.png'
+import webpackImg from '../../img/webpack.png'
+import prismaImg from '../../img/prisma.png'
+import sequelizeImg from '../../img/sequelize.png'
+import herokuImg from '../../img/heroku.png'
+import reduxImg from '../../img/redux.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { ISkillCategory } from './skillsData.interface'
 
-export const skillsData = {
-  general: {
+export const skillsData: ISkillCategory[] = [
+  {
     title: 'General',
     skills: [
       {
@@ -40,7 +41,7 @@ export const skillsData = {
       },
     ],
   },
-  frontend: {
+  {
     title: 'Frontend',
     skills: [
       {
@@ -177,7 +178,7 @@ export const skillsData = {
       },
     ],
   },
-  backend: {
+  {
     title: 'Backend',
     skills: [
       {
@@ -236,7 +237,7 @@ export const skillsData = {
       },
     ],
   },
-  other: {
+  {
     title: 'Other Skills',
     skills: [
       {
@@ -270,4 +271,4 @@ export const skillsData = {
       },
     ],
   },
-}
+]

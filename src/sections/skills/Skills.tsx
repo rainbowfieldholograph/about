@@ -1,14 +1,18 @@
-import { skillsData } from '../../appData/skillsData'
+import { FC } from 'react'
+import { skillsData } from '../../appData/skillsData/skillsData'
 import { SectionContainer } from '../../components/sectionContainer/SectionContainer'
 import { SkillCategory } from '../../components/skillCategory/SkillCategory'
 import styles from './Skills.module.css'
 
-export const Skills = () => {
+export const Skills: FC = (): JSX.Element => {
   return (
     <SectionContainer className={styles.wrapper}>
       <h1 className={styles.title}>My Skills:</h1>
       <ul className={styles.skillsList}>
-        <SkillCategory
+        {skillsData.map((category) => (
+          <SkillCategory skills={category.skills} title={category.title} />
+        ))}
+        {/* <SkillCategory
           skillData={skillsData.general.skills}
           title={skillsData.general.title}
         />
@@ -20,7 +24,7 @@ export const Skills = () => {
           skillData={skillsData.backend.skills}
           title={skillsData.backend.title}
         />
-        <SkillCategory skillData={skillsData.other.skills} title={skillsData.other.title} />
+        <SkillCategory skillData={skillsData.other.skills} title={skillsData.other.title} /> */}
       </ul>
     </SectionContainer>
   )

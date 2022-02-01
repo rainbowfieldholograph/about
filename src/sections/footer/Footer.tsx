@@ -1,8 +1,9 @@
 import { IconLink } from '../../components/iconLink/IconLink'
+import { linksData } from '../../appData/linksData/linksData'
+import { FC } from 'react'
 import styles from './Footer.module.css'
-import { linksData } from '../../appData/linksData'
 
-export const Footer = () => {
+export const Footer: FC = (): JSX.Element => {
   return (
     <footer className={styles.footer}>
       <h2>Links:</h2>

@@ -1,6 +1,7 @@
+import { FC } from 'react'
 import styles from './Welcome.module.css'
 
-export const Welcome = () => {
+export const Welcome: FC = (): JSX.Element => {
   return (
     <section className={styles.wrapper}>
       <div className={styles.inner}>
