@@ -12,19 +12,6 @@ export const Skills: FC = (): JSX.Element => {
         {skillsData.map((category) => (
           <SkillCategory skills={category.skills} title={category.title} />
         ))}
-        {/* <SkillCategory
-          skillData={skillsData.general.skills}
-          title={skillsData.general.title}
-        />
-        <SkillCategory
-          skillData={skillsData.frontend.skills}
-          title={skillsData.frontend.title}
-        />
-        <SkillCategory
-          skillData={skillsData.backend.skills}
-          title={skillsData.backend.title}
-        />
-        <SkillCategory skillData={skillsData.other.skills} title={skillsData.other.title} /> */}
       </ul>
     </SectionContainer>
   )
