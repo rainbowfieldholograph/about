@@ -1,4 +1,4 @@
-// import eyesClosedImg from '../../img/eyesclosed.png'
+import eyesclosedImg from '../../img/eyesclosed.png'
 // import maybetomorrowImg from '../../img/maybetomorrow.png'
 // import moodboardImg from '../../img/moodboard.png'
 // import reactsneakersImg from '../../img/react-sneakers.png'
@@ -6,15 +6,16 @@ import waterTransportation from '../../img/water-transportation.png'
 import { IWorkData } from './worksData.interface'
 
 export const worksData: IWorkData[] = [
-  // {
-  //   image: eyesClosedImg,
-  //   title: 'Eyes-closed',
-  //   descr:
-  //     'Fullstack приложение для прослушивания и загрузки музыки. Выполнен деплой на heroku',
-  //   stack: 'React, MongoDB, NodeJS, Express, GraphQL, ApolloServer, ApolloCilent, s3 buckets',
-  //   project: 'https://eyes-closed.herokuapp.com/',
-  //   github: 'https://github.com/rainbowfieldholograph/music-playlist-fullstack',
-  // },
+  {
+    image: eyesclosedImg,
+    title: 'Eyesclosed',
+    description:
+      'Fullstack приложение для прослушивания и загрузки музыки. Frontend задеплоен на githupages, backend на heroku, файлы хранятся в s3 buckets',
+    stack: 'React, MongoDB, NodeJS, Express, GraphQL, ApolloServer, ApolloCilent, s3 buckets',
+    projectLink: 'https://rainbowfieldholograph.github.io/music-playlist-fullstack/',
+    githubLink: 'https://github.com/rainbowfieldholograph/music-playlist-fullstack',
+  },
+
   // {
   //   image: maybetomorrowImg,
   //   title: 'Maybetomorrow',

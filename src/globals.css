@@ -97,11 +97,10 @@ html {
   --color-white: #fff;
 
   --font-color-primary: #fff;
-  --font-size-extra-small: 0.75rem;
-  --font-size-small: 1rem;
-  --font-size-medium: 1.5rem;
-  --font-size-large: 2rem;
-  --font-size-extra-large: 2.5rem;
+  --font-size-extra-small: 0.6rem;
+  --font-size-small: 0.9rem;
+  --font-size-medium: 1.3rem;
+  --font-size-large: 1.8rem;
 
   color: var(--font-color-primary);
   font-size: var(--font-size-large);

@@ -1,5 +1,6 @@
 .items {
   display: grid;
+  align-items: center;
   grid-template-columns: auto 1fr auto;
   gap: var(--small-distance-between);
 }

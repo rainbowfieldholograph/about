@@ -8,6 +8,7 @@
 .accordionButton {
   display: grid;
   grid-template-columns: 1fr auto;
+  align-items: center;
 }
 
 .title {
