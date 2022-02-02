@@ -21,6 +21,7 @@ import prismaImg from '../../img/prisma.png'
 import sequelizeImg from '../../img/sequelize.png'
 import herokuImg from '../../img/heroku.png'
 import reduxImg from '../../img/redux.png'
+import nextjsImg from '../../img/nextjs.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { ISkillCategory } from './skillsData.interface'
 
@@ -63,16 +64,23 @@ export const skillsData: ISkillCategory[] = [
           'В реакте чувствую себя плюс-минус уверенно. Основные знания, хуки, библиотеки, JSX, функциональный подход, немного мемоизации.',
       },
       {
-        title: 'SCSS',
-        iconComponent: <FontAwesomeIcon icon={faSass} />,
-        description:
-          'Когда-то был небольшой опыт работы с данным препроцессором. Знания начальные: переменные, вложенность.',
-      },
-      {
         title: 'React Native',
         iconComponent: <FontAwesomeIcon icon={faReact} />,
         description:
           'Есть опыт разработки мобильных приложений на React Native с использованием дополнительных библиотек.',
+      },
+      {
+        title: 'React NextJS',
+        iconComponent: (
+          <img className="reverseColor" src={nextjsImg} alt="NextJS" width={30} height={30} />
+        ),
+        description: 'Есть опыт работы с SSR на React с помощью фреймворка NextJS.',
+      },
+      {
+        title: 'SCSS',
+        iconComponent: <FontAwesomeIcon icon={faSass} />,
+        description:
+          'Когда-то был небольшой опыт работы с данным препроцессором. Знания начальные: переменные, вложенность.',
       },
       {
         title: 'React Material UI',
