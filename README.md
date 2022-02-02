@@ -1,9 +1,9 @@
-# Portfolio Web page
+<h1 align="center">Portfolio Web page</h1>
 
-[![Version](https://img.shields.io/npm/v/portfolio.svg)](https://www.npmjs.com/package/portfolio)
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
 > Моё web портфолио, написанное с использованием React + TypeScript.
 
-### 🏠 [Homepage](https://rainbowfieldholograph.github.io/portfolio/)
-
-### ✨ [Demo]()
+### 🏠 [Github Pages](https://rainbowfieldholograph.github.io/portfolio/)
