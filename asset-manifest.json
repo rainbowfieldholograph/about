@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2e7374ef.chunk.css",
-    "main.js": "/portfolio/static/js/main.a7ea5bf5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a7ea5bf5.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bf1e9927.chunk.css",
+    "main.js": "/portfolio/static/js/main.6df7c70b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6df7c70b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.5483d5da.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.5483d5da.js.map",
-    "static/js/2.9932e7f5.chunk.js": "/portfolio/static/js/2.9932e7f5.chunk.js",
-    "static/js/2.9932e7f5.chunk.js.map": "/portfolio/static/js/2.9932e7f5.chunk.js.map",
+    "static/js/2.76210286.chunk.js": "/portfolio/static/js/2.76210286.chunk.js",
+    "static/js/2.76210286.chunk.js.map": "/portfolio/static/js/2.76210286.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.2e7374ef.chunk.css.map": "/portfolio/static/css/main.2e7374ef.chunk.css.map",
-    "static/js/2.9932e7f5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9932e7f5.chunk.js.LICENSE.txt",
+    "static/css/main.bf1e9927.chunk.css.map": "/portfolio/static/css/main.bf1e9927.chunk.css.map",
+    "static/js/2.76210286.chunk.js.LICENSE.txt": "/portfolio/static/js/2.76210286.chunk.js.LICENSE.txt",
+    "static/media/eyesclosed.37d4a1e2.png": "/portfolio/static/media/eyesclosed.37d4a1e2.png",
+    "static/media/mbt.d672db07.png": "/portfolio/static/media/mbt.d672db07.png",
     "static/media/mongo.9cbc067b.png": "/portfolio/static/media/mongo.9cbc067b.png",
+    "static/media/react-native-shop.2d960aad.jpg": "/portfolio/static/media/react-native-shop.2d960aad.jpg",
+    "static/media/react-shop.d84ace29.png": "/portfolio/static/media/react-shop.d84ace29.png",
     "static/media/redux.dd3d38c6.png": "/portfolio/static/media/redux.dd3d38c6.png",
+    "static/media/top-app.3ead8535.png": "/portfolio/static/media/top-app.3ead8535.png",
     "static/media/water-transportation.28a643f9.png": "/portfolio/static/media/water-transportation.28a643f9.png",
     "static/media/webpack.fcc59395.png": "/portfolio/static/media/webpack.fcc59395.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5483d5da.js",
-    "static/js/2.9932e7f5.chunk.js",
-    "static/css/main.2e7374ef.chunk.css",
-    "static/js/main.a7ea5bf5.chunk.js"
+    "static/js/2.76210286.chunk.js",
+    "static/css/main.bf1e9927.chunk.css",
+    "static/js/main.6df7c70b.chunk.js"
   ]
 }
