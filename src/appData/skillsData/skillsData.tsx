@@ -31,13 +31,13 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'JavaScript',
         iconComponent: <FontAwesomeIcon icon={faJsSquare} />,
-        description: 'Основы, ES6+, немного работы с DOM, немного ООП, работа с http.',
+        description: 'Основы, ES6+, немного работы с DOM, немного ООП, работа с AJAX.',
       },
       {
         title: 'TypeScript',
         iconComponent: <img src={tsImg} alt="Typescript" width={30} height={30} />,
         description:
-          'Имеются начальные знания TypeScript: строгая типизация, кастомные типы, интерфейсы, enum, поверхностно знаком с настройкой tsconfig.',
+          'Имеются начальные знания TypeScript: строгая типизация, кастомные типы, интерфейсы, enum, поверхностно знаком с настройкой tsconfig. Сейчас стараюсь применять его, вместо обычного JavaScript.',
       },
     ],
   },

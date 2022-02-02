@@ -3,12 +3,12 @@ import { ILinkData } from './linksData.interface'
 
 export const linksData: ILinkData[] = [
   {
-    title: 'github',
+    title: 'Github',
     icon: faGithub,
     linkTo: 'https://github.com/rainbowfieldholograph',
   },
   {
-    title: 'telegram',
+    title: 'Telegram',
     icon: faTelegram,
     linkTo: 'https://t.me/duvetduvet',
   },

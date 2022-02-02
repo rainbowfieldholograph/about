@@ -10,7 +10,12 @@ export const Footer: FC = (): JSX.Element => {
       <ul className={styles.box}>
         {linksData.map((skill, index) => (
           <li key={index}>
-            <IconLink aria-label={skill.title} icon={skill.icon} href={skill.linkTo} />
+            <IconLink
+              title={skill.title}
+              aria-label={skill.title}
+              icon={skill.icon}
+              href={skill.linkTo}
+            />
           </li>
         ))}
       </ul>

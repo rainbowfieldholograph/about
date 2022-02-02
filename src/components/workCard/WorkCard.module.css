@@ -29,6 +29,7 @@
 
 .modal img {
   max-width: 100%;
+  max-height: 500px;
 }
 
 @supports (hyphens: auto) {

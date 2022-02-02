@@ -49,7 +49,7 @@ export const worksData: IWorkData[] = [
     image: reactShopImg,
     title: 'React shop',
     description:
-      'Fullstack интернет магазин. Все товары с корзины хранятся в session storage. Так как приложение использует базу данных postgresql, у меня возникли некоторые сложности с деплоем данного приложения, так что, пока никуда не задеплоено.',
+      'Fullstack интернет магазин. Все товары с корзины хранятся в session storage. Изначально вместо Prisma пытался использовать Sequelize. Так как приложение использует базу данных postgresql, у меня возникли некоторые сложности с деплоем данного приложения, так что, пока никуда не задеплоено.',
     stack: 'React, Mobx, NodeJS, Express, Prisma (postgresq)',
     githubLink: 'https://github.com/rainbowfieldholograph/react-shop',
   },
