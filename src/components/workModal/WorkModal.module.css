@@ -2,6 +2,7 @@
   display: grid;
   gap: var(--small-distance-between);
   text-align: center;
+  justify-items: center;
   font-size: var(--font-size-extra-small);
 }
 

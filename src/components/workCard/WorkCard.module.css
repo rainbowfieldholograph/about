@@ -17,6 +17,7 @@
 }
 
 .card img {
+  object-fit: cover;
   border-radius: calc(var(--default-border-radius) / 2);
 }
 

@@ -9,6 +9,12 @@
 
 .itemsList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--default-distance-between);
 }
+
+/* @media (max-width: 300px) {
+  .itemsList {
+    grid-template-columns: 100%;
+  }
+} */

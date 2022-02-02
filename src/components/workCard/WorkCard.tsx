@@ -6,6 +6,7 @@ import { WorkCardProps } from './WorkCard.props'
 
 export const WorkCard: FC<WorkCardProps> = ({
   image,
+  imagePreview,
   title,
   description,
   stack,
@@ -16,7 +17,7 @@ export const WorkCard: FC<WorkCardProps> = ({
   return (
     <>
       <button onClick={() => setIsOpen(true)} className={styles.card}>
-        <img src={image} alt={title} />
+        <img src={imagePreview ? imagePreview : image} alt={title} />
         <h2>{title}</h2>
         <h3>{stack}</h3>
       </button>

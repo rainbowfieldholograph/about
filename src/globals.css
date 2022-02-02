@@ -31,6 +31,9 @@ input,
 button,
 textarea {
   font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
 }
 
 input::-ms-clear {
@@ -38,10 +41,7 @@ input::-ms-clear {
 }
 
 button {
-  color: inherit;
   cursor: pointer;
-  background-color: transparent;
-  font-size: inherit;
 }
 
 button::-moz-focus-inner {
