@@ -1,6 +1,5 @@
 .card {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
   overflow: hidden;
   gap: var(--default-distance-between);
@@ -8,7 +7,6 @@
   padding: var(--small-padding);
   width: 100%;
   border-radius: var(--default-border-radius);
-  word-break: break-word;
   font-size: var(--font-size-extra-small);
 }
 
@@ -30,10 +28,4 @@
 .modal img {
   max-width: 100%;
   max-height: 500px;
-}
-
-@supports (hyphens: auto) {
-  .card {
-    hyphens: auto;
-  }
 }
