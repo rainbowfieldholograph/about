@@ -8,6 +8,7 @@
   width: 100%;
   border-radius: var(--default-border-radius);
   font-size: var(--font-size-extra-small);
+  height: 100%;
 }
 
 .card:hover {
