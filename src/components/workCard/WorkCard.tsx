@@ -11,7 +11,7 @@ export const WorkCard: FC<WorkCardProps> = ({
   description,
   stack,
   projectLink,
-  githubLink,
+  gitLink,
 }: WorkCardProps) => {
   const [isOpen, setIsOpen] = useState(false)
   return (
@@ -28,7 +28,7 @@ export const WorkCard: FC<WorkCardProps> = ({
           description={description}
           stack={stack}
           projectLink={projectLink}
-          githubLink={githubLink}
+          gitLink={gitLink}
         />
       </Modal>
     </>

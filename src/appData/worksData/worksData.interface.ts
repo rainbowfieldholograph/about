@@ -5,5 +5,5 @@ export interface IWorkData {
   description: string
   stack: string
   projectLink?: string
-  githubLink?: string
+  gitLink?: string
 }

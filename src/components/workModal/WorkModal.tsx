@@ -1,18 +1,18 @@
 import { FC } from 'react'
 import { IconLink } from '../iconLink/IconLink'
 import styles from './WorkModal.module.css'
-import { WorkInfoProps } from './WorkModal.props'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { WorkModalProps } from './WorkModal.props'
+import { faGitAlt } from '@fortawesome/free-brands-svg-icons'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
 
-export const WorkModal: FC<WorkInfoProps> = ({
+export const WorkModal: FC<WorkModalProps> = ({
   image,
   title,
   description,
   stack,
   projectLink,
-  githubLink,
-}: WorkInfoProps): JSX.Element => {
+  gitLink,
+}: WorkModalProps): JSX.Element => {
   return (
     <div className={styles.wrapper}>
       <img className={styles.image} src={image} alt={title} />
@@ -20,7 +20,7 @@ export const WorkModal: FC<WorkInfoProps> = ({
       <h3>{stack}</h3>
       <p>{description}</p>
       <div className={styles.linksContainer}>
-        {githubLink && <IconLink icon={faGithub} href={githubLink} />}
+        {gitLink && <IconLink icon={faGitAlt} href={gitLink} />}
         {projectLink && <IconLink icon={faEye} href={projectLink} />}
       </div>
     </div>

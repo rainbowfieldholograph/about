@@ -16,25 +16,26 @@ export const worksData: IWorkData[] = [
     stack:
       'React, MobX, ApolloClient, MongoDB, NodeJS, Express, GraphQL, ApolloServer, s3 buckets',
     projectLink: 'https://rainbowfieldholograph.github.io/music-playlist-fullstack/',
-    githubLink: 'https://github.com/rainbowfieldholograph/music-playlist-fullstack',
+    gitLink: 'https://github.com/rainbowfieldholograph/music-playlist-fullstack',
   },
 
   {
     image: maybetomorrowImg,
     title: 'Maybetomorrow',
     description:
-      'Обычное приложение Todo. Является fullstack разработкой. Адаптив слабоват, accessability присутствует, поддерживается возможность авторизации/регистрации пользователей. Если выдаёт ошибку от heroku, то подождите немного и обновите страницу.',
+      'Обычное приложение Todo. Является fullstack разработкой. Адаптив, accessability, поддерживается возможность авторизации/регистрации пользователей. Если выдаёт ошибку от heroku, то подождите немного и обновите страницу.',
     stack: 'React, ApolloClient, MaterialUI, NodeJS, MongoDB, Express, GraphQL, JWT',
     projectLink: 'https://maybetomorrow.herokuapp.com/',
-    githubLink: 'https://github.com/rainbowfieldholograph/todo-client-server',
+    gitLink: 'https://github.com/rainbowfieldholograph/todo-client-server',
   },
   {
     image: waterTransportationImg,
     title: 'Water Transportation',
     description:
-      'Only frontend разработка, делалась в ноябре 2021, по макету с Figma. Adaptive layout, no accessability. Первая попытка оптимизации React (мемоизация). Ссылку на исходный код можно получить, написав мне в лс. Важная информация! Все кнопки в хедере нажимаются (даже кружок), так же на странице расписания, можно нажать "Выбрать", там будет большая форма. Задеплоено на heroku',
+      'Only frontend разработка, делалась в ноябре 2021, по макету с Figma. Adaptive layout. Первая попытка оптимизации React (мемоизация). Репозиторий хранится на notabug. Важная информация! Все кнопки в хедере нажимаются (даже кружок), так же на странице расписания, можно нажать "Выбрать", там будет большая форма. Задеплоено на heroku',
     stack: 'React',
     projectLink: 'https://water-transportation.herokuapp.com',
+    gitLink: 'https://notabug.org/perfectblue/water-transportation',
   },
   {
     image: topAppImg,
@@ -43,7 +44,7 @@ export const worksData: IWorkData[] = [
       'Проект на основе курса React NextJS. Frontend, используется API courses-top.ru. Accessability, adaptive, Css grid, + - адекватно читается скрин ридерами. Хостинг: Vercel',
     stack: 'React, NextJS, TypeScript',
     projectLink: 'https://top-app-react-nextjs.vercel.app',
-    githubLink: 'https://github.com/rainbowfieldholograph/top-app-react-nextjs',
+    gitLink: 'https://github.com/rainbowfieldholograph/top-app-react-nextjs',
   },
   {
     image: reactShopImg,
@@ -51,7 +52,7 @@ export const worksData: IWorkData[] = [
     description:
       'Fullstack интернет магазин. Все товары с корзины хранятся в session storage. Изначально вместо Prisma пытался использовать Sequelize. Так как приложение использует базу данных postgresql, у меня возникли некоторые сложности с деплоем данного приложения, так что, пока никуда не задеплоено.',
     stack: 'React, Mobx, NodeJS, Express, Prisma (postgresq)',
-    githubLink: 'https://github.com/rainbowfieldholograph/react-shop',
+    gitLink: 'https://github.com/rainbowfieldholograph/react-shop',
   },
   {
     image: reactNativeShop,
@@ -60,6 +61,6 @@ export const worksData: IWorkData[] = [
     description:
       'Демо версия мобильного приложения на React Native, Реальная версия приложения делалась в октябре 2021. Обычное приложение магазин.',
     stack: 'React Native',
-    githubLink: 'https://github.com/rainbowfieldholograph/react-native-shop-demo',
+    gitLink: 'https://github.com/rainbowfieldholograph/react-native-shop-demo',
   },
 ]
