@@ -13,3 +13,7 @@
 .linksContainer > *:not(:last-child) {
   margin-right: var(--small-distance-between);
 }
+
+.image {
+  border-radius: var(--small-border-radius);
+}

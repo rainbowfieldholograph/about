@@ -15,7 +15,7 @@ export const WorkModal: FC<WorkInfoProps> = ({
 }: WorkInfoProps): JSX.Element => {
   return (
     <div className={styles.wrapper}>
-      <img src={image} alt={title} />
+      <img className={styles.image} src={image} alt={title} />
       <h2>{title}</h2>
       <h3>{stack}</h3>
       <p>{description}</p>
