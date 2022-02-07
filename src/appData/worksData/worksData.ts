@@ -23,9 +23,9 @@ export const worksData: IWorkData[] = [
     image: maybetomorrowImg,
     title: 'Maybetomorrow',
     description:
-      'Обычное приложение Todo. Является fullstack разработкой. Адаптив, accessability, поддерживается возможность авторизации/регистрации пользователей. Если выдаёт ошибку от heroku, то подождите немного и обновите страницу.',
+      'Обычное приложение Todo. Является fullstack разработкой. Адаптив, accessability, поддерживается возможность авторизации/регистрации пользователей. Backend задеплоен на heroku.',
     stack: 'React, ApolloClient, MaterialUI, NodeJS, MongoDB, Express, GraphQL, JWT',
-    projectLink: 'https://maybetomorrow.herokuapp.com/',
+    projectLink: 'https://rainbowfieldholograph.github.io/todo-client-server/',
     gitLink: 'https://github.com/rainbowfieldholograph/todo-client-server',
   },
   {
