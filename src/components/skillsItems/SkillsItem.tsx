@@ -9,16 +9,14 @@ const SkillsItem: FC<SkillsItemProps> = ({
   description,
 }: SkillsItemProps): JSX.Element => {
   return (
-    <Accordion
-      summaryComponent={
-        <>
-          <h3 className={styles.title}>{title}</h3>
-          {iconComponent}
-        </>
-      }
-      summaryClassName={styles.items}
-    >
-      <span className={styles.text}>{description}</span>
+    <Accordion>
+      <Accordion.Summary className={styles.items}>
+        <h3 className={styles.title}>{title}</h3>
+        {iconComponent}
+      </Accordion.Summary>
+      <Accordion.Item>
+        <span className={styles.text}>{description}</span>
+      </Accordion.Item>
     </Accordion>
   )
 }

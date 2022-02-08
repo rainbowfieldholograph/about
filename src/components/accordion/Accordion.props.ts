@@ -1,8 +1,16 @@
 import { ReactNode } from 'react'
 
 export interface AccordionProps {
-  summaryComponent: JSX.Element
   className?: string
-  summaryClassName?: string
+  children?: ReactNode
+}
+
+export interface SummaryProps {
+  className?: string
+  children?: ReactNode
+}
+
+export interface ItemProps {
+  className?: string
   children?: ReactNode
 }

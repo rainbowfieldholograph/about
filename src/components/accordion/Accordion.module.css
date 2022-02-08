@@ -2,7 +2,7 @@
   --accordion-default-color: var(--color-primary);
   --accordion-active-color: var(--color-secondary);
   --accordion-border-width: 2px;
-  --accordion-border-width-active: 4px;
+  --accordion-border-width-active: 3px;
   --accordion-chevorn-animation: 0.2s ease-out;
   --accordion-slide-animation: 0.3s ease-in-out;
   --accrodion-button-animation: 0.2s ease-out;
