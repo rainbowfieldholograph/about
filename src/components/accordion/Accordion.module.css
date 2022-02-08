@@ -2,13 +2,14 @@
   --accordion-default-color: var(--color-primary);
   --accordion-active-color: var(--color-secondary);
   --accordion-border-width: 2px;
+  --accordion-border-width-active: 4px;
   --accordion-chevorn-animation: 0.2s ease-out;
   --accordion-slide-animation: 0.3s ease-in-out;
+  --accrodion-button-animation: 0.2s ease-out;
 
   width: 100%;
   background-color: var(--accordion-default-color);
   border-radius: var(--default-border-radius);
-  overflow: hidden;
 }
 
 .button {
@@ -29,7 +30,9 @@
 
 .details[open] > .button {
   background-color: var(--accordion-active-color);
-  border-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  transition: all var(--accrodion-button-animation);
 }
 
 .dropdown {
@@ -43,6 +46,13 @@
 
 .details[open] > .dropdown {
   animation: slide var(--accordion-slide-animation);
+}
+
+.details .button:hover,
+.details .button:focus-visible {
+  border-color: var(--color-active);
+  border-width: var(--accordion-border-width-active);
+  outline: none;
 }
 
 @keyframes slide {
