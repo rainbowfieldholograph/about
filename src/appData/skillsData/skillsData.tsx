@@ -38,7 +38,7 @@ export const skillsData: ISkillCategory[] = [
         title: 'TypeScript',
         iconComponent: <img src={tsImg} alt="Typescript" width={30} height={30} />,
         description:
-          'Имеются начальные знания TypeScript: строгая типизация, кастомные типы, интерфейсы, enum, поверхностно знаком с настройкой tsconfig. Сейчас стараюсь применять его, вместо обычного JavaScript.',
+          'Имеются начальные знания TypeScript: кастомные типы, интерфейсы, enum, поверхностно знаком с настройкой tsconfig. Сейчас стараюсь применять его, вместо обычного JavaScript.',
       },
     ],
   },
@@ -48,20 +48,18 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'HTML',
         iconComponent: <FontAwesomeIcon icon={faHtml5} />,
-        description:
-          'Есть опыт и знания семантической вёрстки, так же доступность (accessability).',
+        description: 'Есть опыт и знания семантической вёрстки и accessability.',
       },
       {
         title: 'CSS',
         iconComponent: <FontAwesomeIcon icon={faCss3Alt} />,
-        description:
-          'Адаптивная вёрстка, опыт в работе с Flexbox, так же немного знаком с grid.',
+        description: 'Адаптивная вёрстка, опыт в работе с Flex, так же знаком с Grid.',
       },
       {
         title: 'ReactJS',
         iconComponent: <FontAwesomeIcon icon={faReact} />,
         description:
-          'В реакте чувствую себя плюс-минус уверенно. Основные знания, хуки, библиотеки, JSX, функциональный подход, немного мемоизации.',
+          'Основные знания, хуки, библиотеки, JSX, функциональный подход, немного мемоизации.',
       },
       {
         title: 'React Native',
@@ -79,15 +77,14 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'SCSS',
         iconComponent: <FontAwesomeIcon icon={faSass} />,
-        description:
-          'Когда-то был небольшой опыт работы с данным препроцессором. Знания начальные: переменные, вложенность.',
+        description: 'Умею работать с препроцессором SCSS, активно применяю на практике.',
       },
       {
         title: 'React Material UI',
         iconComponent: (
           <img className="reverseColor" src={MUIImg} alt="MongoDB" width={30} height={30} />
         ),
-        description: 'Попробовал, вроде разобрался.',
+        description: 'Есть опыт разработки React приложений вместе с Material UI.',
       },
       {
         title: 'Webpack',
@@ -101,7 +98,7 @@ export const skillsData: ISkillCategory[] = [
           />
         ),
         description:
-          'Знаю что это, и немного понимаю как с ним можно работать. Но опыта самостоятельной настройки webpack нет.',
+          'Есть знания настройки приложения с помощью Webpack. Но опыта самостоятельной настройки webpack нет.',
       },
       {
         title: 'Vite',
@@ -124,8 +121,7 @@ export const skillsData: ISkillCategory[] = [
             ></path>
           </svg>
         ),
-        description:
-          'Могу ввести в консоли: npm init vite@latest и выбрать нужные мне параметры. Есть небольшой опыт работы с ним.',
+        description: 'Есть знания и практический опыт настройки приложения с Vite.',
       },
       {
         title: 'MobX',
@@ -161,7 +157,7 @@ export const skillsData: ISkillCategory[] = [
             />
           </svg>
         ),
-        description: 'Есть основные знания и опыт разработки с ним, но глубоко не вникал.',
+        description: 'Есть основные знания и опыт разработки с ним.',
       },
       {
         title: 'Apollo Client',
@@ -177,12 +173,12 @@ export const skillsData: ISkillCategory[] = [
         description: 'Умею работать с хуками Apollo Client, опыт есть.',
       },
       {
-        title: 'Redux / Redux Toolkit',
+        title: 'Redux / Redux Thunk / Redux Toolkit',
         iconComponent: (
           <img className="reverseColor" src={reduxImg} alt="Redux" width={30} height={30} />
         ),
         description:
-          'Совсем недавно начал учить Redux / Redux Toolkit. Пока что, нахожусь в процессе обучения.',
+          'Умею управлять глобальным стейтом, с помощью Redux. Есть опыт практического применения и имплементации с TypeScript.',
       },
     ],
   },
@@ -214,14 +210,14 @@ export const skillsData: ISkillCategory[] = [
           />
         ),
         description:
-          'Сделал пару серверных приложений (pet projects) с использованием GraphQL. Умею работать с playground. Так же знаком с ApolloServer.',
+          'Сделал пару серверных приложений (pet projects), с использованием GraphQL. Умею работать с playground. Так же знаком с ApolloServer.',
       },
       {
         title: 'Prisma',
         iconComponent: (
           <img className="reverseColor" src={prismaImg} alt="Prisma" width={30} height={30} />
         ),
-        description: 'Опыта очень мало, применял всего 1 раз.',
+        description: 'Есть опыт работы с PostreSQL через ORM Prisma.',
       },
       {
         title: 'Sequelize',
@@ -234,8 +230,7 @@ export const skillsData: ISkillCategory[] = [
             height={30}
           />
         ),
-        description:
-          'Попытался использовать, не понравилось (не осилил), предпочел использовать Prisma. ИМХО синтаксис выглядит страшно и громоздко.',
+        description: 'Попробовал, предпочел использовать Prisma.',
       },
       {
         title: 'AWS S3 Buckets',
@@ -251,7 +246,7 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'Git',
         iconComponent: <FontAwesomeIcon icon={faGitSquare} />,
-        description: 'Основные команды. Имеется опыт (смотрите github профиль).',
+        description: 'Основные команды. Имеется практический опыт (смотрите github профиль).',
       },
       {
         title: 'Figma',
@@ -274,8 +269,7 @@ export const skillsData: ISkillCategory[] = [
         iconComponent: (
           <img src={herokuImg} className="reverseColor" alt="Heroku" width={35} height={35} />
         ),
-        description:
-          'Деплоил туда пару приложений NodeJS. Понимаю как им пользоваться на базовом уровне.',
+        description: 'Деплоил туда пару приложений NodeJS. Понимаю как им пользоваться.',
       },
     ],
   },

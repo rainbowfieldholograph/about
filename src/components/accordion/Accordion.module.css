@@ -2,7 +2,7 @@
   --accordion-default-color: var(--color-primary);
   --accordion-active-color: var(--color-secondary);
   --accordion-border-width: 2px;
-  --accordion-border-width-active: 3px;
+  --accordion-border-width-active: 2px;
   --accordion-chevorn-animation: 0.2s ease-out;
   --accordion-slide-animation: 0.3s ease-in-out;
   --accrodion-button-animation: 0.2s ease-out;
@@ -15,6 +15,7 @@
 
 .button {
   cursor: pointer;
+  user-select: none;
   padding: var(--default-padding);
   border: var(--accordion-border-width) solid var(--accordion-active-color);
   border-radius: var(--default-border-radius);
