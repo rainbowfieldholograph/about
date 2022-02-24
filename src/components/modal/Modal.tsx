@@ -5,12 +5,7 @@ import { FC } from 'react'
 import styles from './Modal.module.css'
 import { ModalProps } from './Modal.props'
 
-export const Modal: FC<ModalProps> = ({
-  className,
-  children,
-  open,
-  onClose,
-}: ModalProps): JSX.Element => {
+export const Modal: FC<ModalProps> = ({ className, children, open, onClose }): JSX.Element => {
   const portalRootElement = document.getElementById('modal')
 
   if (!open || !portalRootElement) return <></>

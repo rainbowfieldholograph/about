@@ -7,10 +7,8 @@ export interface AccordionProps {
 
 export interface SummaryProps {
   className?: string
-  children?: ReactNode
 }
 
 export interface ItemProps {
   className?: string
-  children?: ReactNode
 }

@@ -1,11 +1,10 @@
-import { FC } from 'react'
 import { IconLink } from '../iconLink/IconLink'
 import styles from './WorkModal.module.css'
 import { WorkModalProps } from './WorkModal.props'
 import { faGitAlt } from '@fortawesome/free-brands-svg-icons'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
 
-export const WorkModal: FC<WorkModalProps> = ({
+export const WorkModal = ({
   image,
   title,
   description,

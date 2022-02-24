@@ -1,10 +1,10 @@
-import { FC, useState } from 'react'
+import { useState } from 'react'
 import { Modal } from '../modal/Modal'
 import { WorkModal } from '../workModal/WorkModal'
 import styles from './WorkCard.module.css'
 import { WorkCardProps } from './WorkCard.props'
 
-export const WorkCard: FC<WorkCardProps> = ({
+export const WorkCard = ({
   image,
   imagePreview,
   title,

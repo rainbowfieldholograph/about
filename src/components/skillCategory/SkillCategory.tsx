@@ -1,13 +1,9 @@
-import { FC } from 'react'
 import { Accordion } from '../accordion/Accordion'
 import SkillsItem from '../skillsItems/SkillsItem'
 import styles from './SkillCategory.module.css'
 import { SkillCategoryProps } from './SkillCategory.props'
 
-export const SkillCategory: FC<SkillCategoryProps> = ({
-  title,
-  skills,
-}: SkillCategoryProps) => {
+export const SkillCategory = ({ title, skills }: SkillCategoryProps) => {
   return (
     <Accordion>
       <Accordion.Summary className={styles.accordionButton}>
