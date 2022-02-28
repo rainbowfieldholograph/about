@@ -1,9 +1,9 @@
 <h1 align="center">Portfolio Web page</h1>
 
-<p>
+<span>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-</p>
+</span>
 
-> Моё web портфолио, написанное с использованием React + TypeScript.
+<p>Моё web портфолио, написанное с использованием React + TypeScript.</p>
 
 ### 🏠 [Github Pages](https://rainbowfieldholograph.github.io/portfolio/)
