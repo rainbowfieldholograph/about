@@ -7,7 +7,10 @@ export const Welcome = (): JSX.Element => {
         <div>
           <p className={styles.text}>Привет</p>
           <p className={styles.text}>Я являюсь программистом-веб разработчиком.</p>
-          <p className={styles.text}>Данное приложение - моё небольшое портфолио.</p>
+          <p className={styles.text}>
+            На данной странице, вы можете ознакомиться с описанием моих скиллов и некоторыми
+            проектами.
+          </p>
         </div>
       </div>
     </section>

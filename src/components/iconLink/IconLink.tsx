@@ -5,7 +5,7 @@ import { IconLinkProps } from './IconLink.props'
 
 export const IconLink: FC<IconLinkProps> = ({ icon, ...rest }): JSX.Element => {
   return (
-    <a rel="noreferrer" target="_blank" {...rest}>
+    <a className={styles.link} rel="noreferrer" target="_blank" {...rest}>
       <FontAwesomeIcon className={styles.icon} color="white" icon={icon} />
     </a>
   )
