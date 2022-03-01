@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/about/static/css/main.aa50cf1c.chunk.css",
-    "main.js": "/about/static/js/main.dd7ddcad.chunk.js",
-    "main.js.map": "/about/static/js/main.dd7ddcad.chunk.js.map",
+    "main.css": "/about/static/css/main.6b69c799.chunk.css",
+    "main.js": "/about/static/js/main.b7e1ae4e.chunk.js",
+    "main.js.map": "/about/static/js/main.b7e1ae4e.chunk.js.map",
     "runtime-main.js": "/about/static/js/runtime-main.0a5264c7.js",
     "runtime-main.js.map": "/about/static/js/runtime-main.0a5264c7.js.map",
     "static/js/2.65544539.chunk.js": "/about/static/js/2.65544539.chunk.js",
     "static/js/2.65544539.chunk.js.map": "/about/static/js/2.65544539.chunk.js.map",
     "index.html": "/about/index.html",
-    "static/css/main.aa50cf1c.chunk.css.map": "/about/static/css/main.aa50cf1c.chunk.css.map",
+    "static/css/main.6b69c799.chunk.css.map": "/about/static/css/main.6b69c799.chunk.css.map",
     "static/js/2.65544539.chunk.js.LICENSE.txt": "/about/static/js/2.65544539.chunk.js.LICENSE.txt",
     "static/media/eyesclosed.37d4a1e2.png": "/about/static/media/eyesclosed.37d4a1e2.png",
     "static/media/mbt.d672db07.png": "/about/static/media/mbt.d672db07.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.0a5264c7.js",
     "static/js/2.65544539.chunk.js",
-    "static/css/main.aa50cf1c.chunk.css",
-    "static/js/main.dd7ddcad.chunk.js"
+    "static/css/main.6b69c799.chunk.css",
+    "static/js/main.b7e1ae4e.chunk.js"
   ]
 }
