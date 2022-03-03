@@ -10,11 +10,11 @@ import { IWorkData } from './worksData.interface'
 export const worksData: IWorkData[] = [
   {
     image: eyesclosedImg,
-    title: 'Eyesclosed',
+    title: 'Eyesclosed (Music-playlist)',
     description:
-      'Fullstack приложение для прослушивания и загрузки музыки (типа как музыка ВК). В чуть более поздних версиях, в качестве стейт менеджера использовался сначала useContext + useReducer, затем MobX, но нынче используется Apollo Client local state (сам Apollo был тут почти с самого начала, но я не знал, что он так же может и в локальное состояние xd). Один из моих первых pet-проектов, код переписывался раз ~10. На данный момент находится в процессе разработки. Frontend задеплоен на GithubPages, backend на heroku, файлы хранятся в s3 buckets',
+      'Fullstack приложение для прослушивания и загрузки музыки (типа как музыка ВК). В чуть более поздних версиях, в качестве стейт менеджера использовался сначала useContext + useReducer, затем MobX, но нынче используется Apollo Client local state (сам Apollo был тут почти с самого начала, но я не знал, что он так же может и в локальное состояние xd. Один из моих первых pet-проектов, код переписывался раз ~10. На данный момент находится в процессе разработки. Был моим первым опытом в backend. Frontend задеплоен на GithubPages, backend на heroku, аудио-файлы хранятся в AWS s3 buckets',
     stack:
-      'React, TypeScript, Vite, ApolloClient (+ Apollo local state), MongoDB, NodeJS, Express, GraphQL, ApolloServer, s3 buckets',
+      'React, TypeScript, Vite, ApolloClient (+ Apollo local state), MongoDB, NodeJS, Express, GraphQL, ApolloServer, AWS s3 buckets',
     projectLink: 'https://rainbowfieldholograph.github.io/music-playlist-fullstack/',
     gitLink: 'https://github.com/rainbowfieldholograph/music-playlist-fullstack',
   },
@@ -23,7 +23,7 @@ export const worksData: IWorkData[] = [
     image: maybetomorrowImg,
     title: 'Maybetomorrow',
     description:
-      'Обычное приложение Todo. Является fullstack разработкой. Адаптив, accessability, поддерживается возможность авторизации/регистрации пользователей. Backend задеплоен на heroku.',
+      'Fullstack Todo. UI сделан с использованием MaterialUI. Адаптив, accessability, поддерживается возможность авторизации/регистрации пользователей. Проект был сделан только для того, чтобы попрактиковать авторизацию/регистацию с обеих сторон (front/back). Изредка обновляю + исправляю баги. Backend задеплоен на heroku.',
     stack: 'React, ApolloClient, MaterialUI, NodeJS, MongoDB, Express, GraphQL, JWT',
     projectLink: 'https://rainbowfieldholograph.github.io/todo-client-server/',
     gitLink: 'https://github.com/rainbowfieldholograph/todo-client-server',
