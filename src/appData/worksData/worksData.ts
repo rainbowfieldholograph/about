@@ -12,9 +12,9 @@ export const worksData: IWorkData[] = [
     image: eyesclosedImg,
     title: 'Eyesclosed',
     description:
-      'Fullstack приложение для прослушивания и загрузки музыки. Frontend задеплоен на GithubPages, backend на heroku, файлы хранятся в s3 buckets',
+      'Fullstack приложение для прослушивания и загрузки музыки (типа как музыка ВК). В чуть более поздних версиях, в качестве стейт менеджера использовался MobX, но так как в приложении уже был Apollo Client (для запросов GraphQl), решил использовать его local state вместо MobX. Один из моих первых pet-проектов, код переписывался раз 10. Frontend задеплоен на GithubPages, backend на heroku, файлы хранятся в s3 buckets',
     stack:
-      'React, MobX, ApolloClient, MongoDB, NodeJS, Express, GraphQL, ApolloServer, s3 buckets',
+      'React, Vite, ApolloClient (+Apollo local state), MongoDB, NodeJS, Express, GraphQL, ApolloServer, s3 buckets',
     projectLink: 'https://rainbowfieldholograph.github.io/music-playlist-fullstack/',
     gitLink: 'https://github.com/rainbowfieldholograph/music-playlist-fullstack',
   },

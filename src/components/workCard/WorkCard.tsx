@@ -16,11 +16,11 @@ export const WorkCard = ({
   const [isOpen, setIsOpen] = useState(false)
   return (
     <>
-      <button onClick={() => setIsOpen(true)} className={styles.card}>
+      <div tabIndex={0} onClick={() => setIsOpen(true)} className={styles.card}>
         <img src={imagePreview ? imagePreview : image} alt={title} />
         <h2>{title}</h2>
         <h3>{stack}</h3>
-      </button>
+      </div>
       <Modal className={styles.modal} open={isOpen} onClose={() => setIsOpen(false)}>
         <WorkModal
           image={image}
