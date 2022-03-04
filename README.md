@@ -6,4 +6,4 @@
 
 <p>Моё web портфолио, написанное с использованием React + TypeScript.</p>
 
-### 🏠 [Github Pages](https://rainbowfieldholograph.github.io/portfolio/)
+### 🏠 [Github Pages](https://rainbowfieldholograph.github.io/about/)
