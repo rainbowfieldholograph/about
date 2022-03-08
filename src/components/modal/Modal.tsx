@@ -1,14 +1,14 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { createPortal } from 'react-dom'
-import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
-import { FC } from 'react'
-import styles from './Modal.module.css'
-import { ModalProps } from './Modal.props'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { createPortal } from 'react-dom';
+import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
+import { FC } from 'react';
+import styles from './Modal.module.css';
+import { ModalProps } from './Modal.props';
 
 export const Modal: FC<ModalProps> = ({ className, children, open, onClose }): JSX.Element => {
-  const portalRootElement = document.getElementById('modal')
+  const portalRootElement = document.getElementById('modal');
 
-  if (!open || !portalRootElement) return <></>
+  if (!open || !portalRootElement) return <></>;
 
   return createPortal(
     <>
@@ -19,10 +19,9 @@ export const Modal: FC<ModalProps> = ({ className, children, open, onClose }): J
             <FontAwesomeIcon icon={faTimesCircle} />
           </button>
         </div>
-
         {children}
       </div>
     </>,
     portalRootElement
-  )
-}
+  );
+};
