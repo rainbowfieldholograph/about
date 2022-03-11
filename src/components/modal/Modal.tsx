@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { createPortal } from 'react-dom';
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
-import { FC, KeyboardEvent, useEffect, useLayoutEffect, useRef } from 'react';
+import { FC, KeyboardEvent, useEffect, useRef } from 'react';
 import styles from './Modal.module.css';
 import { ModalProps } from './Modal.props';
 
@@ -37,14 +37,13 @@ export const Modal: FC<ModalProps> = ({ className, children, open, onClose }): J
     const focusableEls = contentRef.current?.querySelectorAll(
       'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), [tabindex="0"]'
     );
+    if (!focusableEls) return;
     const firstEl = Array.prototype.slice.call(focusableEls)[0];
     firstEl?.focus();
   };
 
-  useLayoutEffect(() => {
-    if (open) {
-      focusContentOnOpen();
-    }
+  useEffect(() => {
+    if (open) focusContentOnOpen();
   }, [open]);
 
   if (!open || !portalRootElement) return <></>;
@@ -60,14 +59,7 @@ export const Modal: FC<ModalProps> = ({ className, children, open, onClose }): J
         onKeyDown={keyDownHandler}
       >
         <div className={styles.closeButtonWrapper}>
-          <button
-            ref={(element) => element?.setAttribute('inert', 'true')}
-            className={styles.closeButton}
-            onClick={() => {
-              console.log('close');
-              onClose();
-            }}
-          >
+          <button className={styles.closeButton} onClick={onClose}>
             <FontAwesomeIcon icon={faTimesCircle} />
           </button>
         </div>
