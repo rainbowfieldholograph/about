@@ -1,8 +1,8 @@
-import { useState } from 'react'
-import { Modal } from '../modal/Modal'
-import { WorkModal } from '../workModal/WorkModal'
-import styles from './WorkCard.module.css'
-import { WorkCardProps } from './WorkCard.props'
+import { KeyboardEvent, useState } from 'react';
+import { Modal } from '../modal/Modal';
+import { WorkModal } from '../workModal/WorkModal';
+import styles from './WorkCard.module.css';
+import { WorkCardProps } from './WorkCard.props';
 
 export const WorkCard = ({
   image,
@@ -13,10 +13,25 @@ export const WorkCard = ({
   projectLink,
   gitLink,
 }: WorkCardProps) => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const handleKeydown = (event: KeyboardEvent) => {
+    if (event.key === 'Enter') openModal();
+  };
+
   return (
     <>
-      <div tabIndex={0} onClick={() => setIsOpen(true)} className={styles.card}>
+      <div
+        role="button"
+        onKeyDown={handleKeydown}
+        tabIndex={0}
+        onClick={openModal}
+        className={styles.card}
+      >
         <img src={imagePreview ? imagePreview : image} alt={title} />
         <h2>{title}</h2>
         <h3>{stack}</h3>
@@ -32,5 +47,5 @@ export const WorkCard = ({
         />
       </Modal>
     </>
-  )
-}
+  );
+};
