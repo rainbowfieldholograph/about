@@ -10,20 +10,19 @@ import {
   faFigma,
   faGitSquare,
   faLinux,
-} from '@fortawesome/free-brands-svg-icons'
-import mongoImg from '../../img/mongo.png'
-import graphqlImg from '../../img/graphql.png'
-import apolloImg from '../../img/apollo.png'
-import tsImg from '../../img/typescript.png'
-import MUIImg from '../../img/materialui.png'
-import webpackImg from '../../img/webpack.png'
-import prismaImg from '../../img/prisma.png'
-import sequelizeImg from '../../img/sequelize.png'
-import herokuImg from '../../img/heroku.png'
-import reduxImg from '../../img/redux.png'
-import nextjsImg from '../../img/nextjs.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { ISkillCategory } from './skillsData.interface'
+} from '@fortawesome/free-brands-svg-icons';
+import mongoImg from '../../img/mongo.png';
+import graphqlImg from '../../img/graphql.png';
+import apolloImg from '../../img/apollo.png';
+import tsImg from '../../img/typescript.png';
+import MUIImg from '../../img/materialui.png';
+import webpackImg from '../../img/webpack.png';
+import prismaImg from '../../img/prisma.png';
+import herokuImg from '../../img/heroku.png';
+import reduxImg from '../../img/redux.png';
+import nextjsImg from '../../img/nextjs.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { ISkillCategory } from './skillsData.interface';
 
 export const skillsData: ISkillCategory[] = [
   {
@@ -37,8 +36,7 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'TypeScript',
         iconComponent: <img src={tsImg} alt="Typescript" width={30} height={30} />,
-        description:
-          'Имеются начальные знания TypeScript: кастомные типы, интерфейсы, enum, поверхностно знаком с настройкой tsconfig. Сейчас стараюсь применять его, вместо обычного JavaScript.',
+        description: 'Имеются знания TypeScript, активно изучаю + практикую.',
       },
     ],
   },
@@ -62,10 +60,25 @@ export const skillsData: ISkillCategory[] = [
           'Основные знания, хуки, библиотеки, JSX, функциональный подход, немного мемоизации.',
       },
       {
+        title: 'VueJS',
+        iconComponent: (
+          <svg
+            width="32px"
+            height="32px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#fff"
+          >
+            <path d="M24.306 4.019h-4.806l-3.5 5.537-3-5.537h-11l14 23.981 14-23.981zM5.481 6.019h3.363l7.156 12.387 7.15-12.387h3.363l-10.512 18.012z" />
+          </svg>
+        ),
+        description: 'Начал учить недавно, но очень быстро осваиваюсь.',
+      },
+      {
         title: 'React Native',
         iconComponent: <FontAwesomeIcon icon={faReact} />,
         description:
-          'Есть опыт разработки мобильных приложений на React Native с использованием дополнительных библиотек.',
+          'Имеется практический опыт разработки мобильных приложений на React Native с использованием дополнительных библиотек.',
       },
       {
         title: 'React NextJS',
@@ -121,7 +134,7 @@ export const skillsData: ISkillCategory[] = [
             ></path>
           </svg>
         ),
-        description: 'Есть знания и практический опыт настройки приложения с Vite.',
+        description: 'Знания и практический опыт настройки приложения с Vite.',
       },
       {
         title: 'MobX',
@@ -157,7 +170,7 @@ export const skillsData: ISkillCategory[] = [
             />
           </svg>
         ),
-        description: 'Есть основные знания и опыт разработки с ним.',
+        description: 'Основные знания + определённый опыт использования на практике.',
       },
       {
         title: 'Apollo Client',
@@ -170,7 +183,8 @@ export const skillsData: ISkillCategory[] = [
             height={40}
           />
         ),
-        description: 'Умею работать с хуками Apollo Client, опыт есть.',
+        description:
+          'Умею работать с Apollo Client, как для запросов на GraphQL API, так и для управления локальным состоянием приложения.',
       },
       {
         title: 'Redux / Redux Thunk / Redux Toolkit',
@@ -178,7 +192,7 @@ export const skillsData: ISkillCategory[] = [
           <img className="reverseColor" src={reduxImg} alt="Redux" width={30} height={30} />
         ),
         description:
-          'Умею управлять глобальным стейтом, с помощью Redux. Есть опыт практического применения и имплементации с TypeScript.',
+          'Умею управлять глобальным состоянием приложения, с помощью Redux. Есть опыт применения и имплементации с TypeScript.',
       },
     ],
   },
@@ -189,7 +203,7 @@ export const skillsData: ISkillCategory[] = [
         title: 'NodeJS + ExpressJS',
         iconComponent: <FontAwesomeIcon icon={faNode} />,
         description:
-          'Могу по шаблону сделать простой сервер без сложной архитектуры. Опыт имеется',
+          'Дефолтные знания. Могу по шаблону сделать простой сервер без сложной архитектуры.',
       },
       {
         title: 'MongoDB | Mongoose',
@@ -218,19 +232,6 @@ export const skillsData: ISkillCategory[] = [
           <img className="reverseColor" src={prismaImg} alt="Prisma" width={30} height={30} />
         ),
         description: 'Есть опыт работы с PostreSQL через ORM Prisma.',
-      },
-      {
-        title: 'Sequelize',
-        iconComponent: (
-          <img
-            className="reverseColor"
-            src={sequelizeImg}
-            alt="Sequelize"
-            width={30}
-            height={30}
-          />
-        ),
-        description: 'Попробовал, предпочел использовать Prisma.',
       },
       {
         title: 'AWS S3 Buckets',
@@ -273,4 +274,4 @@ export const skillsData: ISkillCategory[] = [
       },
     ],
   },
-]
+];
