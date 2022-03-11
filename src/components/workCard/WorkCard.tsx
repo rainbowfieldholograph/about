@@ -15,19 +15,20 @@ export const WorkCard = ({
 }: WorkCardProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const openModal = () => {
-    setIsOpen(true);
-  };
+  const openModal = () => setIsOpen(true);
 
-  const handleKeydown = (event: KeyboardEvent) => {
-    if (event.key === 'Enter') openModal();
+  const handleKeyPress = (event: KeyboardEvent) => {
+    if (event.key === 'Enter') {
+      setIsOpen(true);
+      console.log('open', isOpen);
+    }
   };
 
   return (
     <>
       <div
         role="button"
-        onKeyDown={handleKeydown}
+        onKeyPress={handleKeyPress}
         tabIndex={0}
         onClick={openModal}
         className={styles.card}

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { createPortal } from 'react-dom';
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
-import { FC, KeyboardEvent, useEffect, useRef } from 'react';
+import { FC, KeyboardEvent, useEffect, useLayoutEffect, useRef } from 'react';
 import styles from './Modal.module.css';
 import { ModalProps } from './Modal.props';
 
@@ -41,10 +41,9 @@ export const Modal: FC<ModalProps> = ({ className, children, open, onClose }): J
     firstEl?.focus();
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (open) {
       focusContentOnOpen();
-    } else {
     }
   }, [open]);
 
@@ -64,7 +63,10 @@ export const Modal: FC<ModalProps> = ({ className, children, open, onClose }): J
           <button
             ref={(element) => element?.setAttribute('inert', 'true')}
             className={styles.closeButton}
-            onClick={onClose}
+            onClick={() => {
+              console.log('close');
+              onClose();
+            }}
           >
             <FontAwesomeIcon icon={faTimesCircle} />
           </button>
