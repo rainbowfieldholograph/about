@@ -14,11 +14,11 @@ export const Modal: FC<ModalProps> = ({ className, children, open, onClose }): J
   };
 
   useEffect(() => {
-    document.body.classList.add(styles._lock);
+    document.body.classList.add(styles.lock);
   }, []);
 
   useEffect(() => {
-    document.body.classList.toggle(styles._lock);
+    document.body.classList.toggle(styles.lock);
     if (open) {
       window.addEventListener('keydown', onClickEsc);
       return () => window.removeEventListener('keydown', onClickEsc);
