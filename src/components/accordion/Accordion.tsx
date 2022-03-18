@@ -1,8 +1,7 @@
-// import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FC } from 'react';
 import styles from './Accordion.module.css';
 import { AccordionProps, ItemProps, SummaryProps } from './Accordion.props';
+import { ReactComponent as ChevronIcon } from '../../img/chevron-icon.svg';
 
 export const Accordion = ({ className, children }: AccordionProps): JSX.Element => (
   <details className={[styles.details, className].join(' ')}>{children}</details>
@@ -11,7 +10,7 @@ export const Accordion = ({ className, children }: AccordionProps): JSX.Element 
 const Summary: FC<SummaryProps> = ({ children, className }): JSX.Element => (
   <summary className={[styles.button, className].join(' ')}>
     {children}
-    {/* <FontAwesomeIcon className={styles.chevron} icon={faChevronRight} /> */}
+    <ChevronIcon className={styles.chevron} />
   </summary>
 );
 

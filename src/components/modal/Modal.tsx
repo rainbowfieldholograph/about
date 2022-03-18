@@ -1,10 +1,9 @@
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { createPortal } from 'react-dom';
-// import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import { FC, useEffect } from 'react';
 import styles from './Modal.module.css';
 import { ModalProps } from './Modal.props';
 import FocusTrap from 'focus-trap-react';
+import { ReactComponent as CloseIcon } from '../../img/close-icon.svg';
 
 const portalRootElement = document.getElementById('modal');
 
@@ -36,11 +35,9 @@ export const Modal: FC<ModalProps> = ({ className, children, open, onClose }): J
           className={[styles.modal, className].join(' ')}
           onClick={(event) => event.stopPropagation()}
         >
-          <div className={styles.closeButtonWrapper}>
-            <button className={styles.closeButton} onClick={onClose}>
-              {/* <FontAwesomeIcon icon={faTimesCircle} /> */}
-            </button>
-          </div>
+          <button className={styles.closeButton} onClick={onClose}>
+            <CloseIcon />
+          </button>
           {children}
         </div>
       </div>

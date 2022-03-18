@@ -28,16 +28,21 @@
   z-index: 9;
 }
 
-.closeButtonWrapper {
-  padding-top: var(--extra-small-padding);
+.closeButton {
+  display: block;
   position: sticky;
   top: 0;
-  display: flex;
-  justify-content: right;
-}
 
-.closeButton {
   color: var(--color-secondary);
+  font-size: 35px;
+
+  width: 35px;
+  height: 35px;
+  aspect-ratio: 1 / 1;
+
+  margin-top: var(--extra-small-padding);
+  margin-bottom: var(--extra-small-padding);
+  margin-left: auto;
 }
 
 @supports (hyphens: auto) {
