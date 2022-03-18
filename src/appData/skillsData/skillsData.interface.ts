@@ -1,10 +1,12 @@
+import { ReactNode } from 'react';
+
 export interface ISkillData {
-  title: string
-  iconComponent: JSX.Element
-  description: string
+  title: string;
+  iconComponent: ReactNode;
+  description: string;
 }
 
 export interface ISkillCategory {
-  title: string
-  skills: ISkillData[]
+  title: string;
+  skills: ISkillData[];
 }

@@ -1,7 +1,7 @@
-import { worksData } from '../../appData/worksData/worksData'
-import { SectionContainer } from '../../components/sectionContainer/SectionContainer'
-import { WorkCard } from '../../components/workCard/WorkCard'
-import styles from './MyWorks.module.css'
+import { worksData } from '../../appData/worksData/worksData';
+import { SectionContainer } from '../../components/sectionContainer/SectionContainer';
+import { WorkCard } from '../../components/workCard/WorkCard';
+import styles from './MyWorks.module.css';
 
 export const MyWorks = (): JSX.Element => (
   <SectionContainer className={styles.wrapper}>
@@ -14,4 +14,4 @@ export const MyWorks = (): JSX.Element => (
       ))}
     </ul>
   </SectionContainer>
-)
+);

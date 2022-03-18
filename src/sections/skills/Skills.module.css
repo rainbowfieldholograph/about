@@ -5,6 +5,7 @@
 .title {
   text-align: center;
   margin-bottom: var(--large-distance-between);
+  font-size: var(--font-size-large);
 }
 
 .skillsList > *:not(:last-child) {

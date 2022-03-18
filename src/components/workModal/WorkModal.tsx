@@ -1,8 +1,8 @@
-import { IconLink } from '../iconLink/IconLink'
-import styles from './WorkModal.module.css'
-import { WorkModalProps } from './WorkModal.props'
-import { faGitAlt } from '@fortawesome/free-brands-svg-icons'
-import { faEye } from '@fortawesome/free-solid-svg-icons'
+import { IconLink } from '../iconLink/IconLink';
+import styles from './WorkModal.module.css';
+import { WorkModalProps } from './WorkModal.props';
+import { ReactComponent as GitIcon } from '../../img/git-icon.svg';
+import { ReactComponent as WatchIcon } from '../../img/eye-icon.svg';
 
 export const WorkModal = ({
   image,
@@ -19,9 +19,9 @@ export const WorkModal = ({
       <h3>{stack}</h3>
       <p>{description}</p>
       <div className={styles.linksContainer}>
-        {gitLink && <IconLink icon={faGitAlt} href={gitLink} />}
-        {projectLink && <IconLink icon={faEye} href={projectLink} />}
+        {gitLink && <IconLink Icon={GitIcon} href={gitLink} />}
+        {projectLink && <IconLink Icon={WatchIcon} href={projectLink} />}
       </div>
     </div>
-  )
-}
+  );
+};

@@ -1,15 +1,16 @@
-import { faGithub, faTelegram } from '@fortawesome/free-brands-svg-icons'
-import { ILinkData } from './linksData.interface'
+import { ILinkData } from './linksData.interface';
+import { ReactComponent as GithubIcon } from '../../img/github-icon.svg';
+import { ReactComponent as TelegramIcon } from '../../img/telegram-icon.svg';
 
 export const linksData: ILinkData[] = [
   {
     title: 'Github',
-    icon: faGithub,
+    icon: GithubIcon,
     linkTo: 'https://github.com/rainbowfieldholograph',
   },
   {
     title: 'Telegram',
-    icon: faTelegram,
+    icon: TelegramIcon,
     linkTo: 'https://t.me/duvetduvet',
   },
-]
+];
