@@ -45,18 +45,18 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'HTML',
         iconComponent: <HTMLIcon color="white" />,
-        description: 'Есть опыт и знания семантической вёрстки и accessability.',
+        description: 'Есть опыт и знания семантической и доступной вёрстки.',
       },
       {
         title: 'CSS',
         iconComponent: <CSSIcon color="white" />,
-        description: 'Адаптивная вёрстка, опыт в работе с Flex, так же знаком с Grid.',
+        description: 'Адаптивная вёрстка, опыт в работе с Flex / Grid.',
       },
       {
         title: 'ReactJS',
         iconComponent: <ReactIcon color="white" />,
         description:
-          'Основные знания, хуки, библиотеки, JSX, функциональный подход, немного мемоизации.',
+          'Основные знания, хуки, библиотеки, JSX, функциональный подход, оптимизация приложений.',
       },
       {
         title: 'VueJS',
@@ -136,7 +136,7 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'Prisma',
         iconComponent: <PrismaIcon color="white" />,
-        description: 'Есть опыт работы с PostreSQL через ORM Prisma.',
+        description: 'Есть небольшой опыт работы с ORM Prisma.',
       },
       {
         title: 'AWS S3 Buckets',
