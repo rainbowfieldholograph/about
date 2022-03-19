@@ -71,6 +71,6 @@
 
 @media (max-width: 500px) {
   .dropdown {
-    padding: var(--extra-small-padding);
+    padding: var(--small-padding);
   }
 }
