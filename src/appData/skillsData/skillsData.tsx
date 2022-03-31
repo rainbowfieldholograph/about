@@ -30,12 +30,14 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'JavaScript',
         iconComponent: <JavascriptIcon color="white" />,
-        description: 'Основы, ES6+, немного работы с DOM, немного ООП, работа с AJAX.',
+        description:
+          'Основы, ES6+, немного работы с DOM, немного ООП, асинхронность, hoisting, spread, rest и много всего еще.',
       },
       {
         title: 'TypeScript',
         iconComponent: <TypescriptIcon color="white" />,
-        description: 'Имеются знания TypeScript, активно изучаю + практикую.',
+        description:
+          'Имеются знания TypeScript, активно изучаю + практикую. Types, interfaces, generics, enums, работа в связке с React, etc...',
       },
     ],
   },
@@ -45,40 +47,42 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'HTML',
         iconComponent: <HTMLIcon color="white" />,
-        description: 'Есть опыт и знания семантической и доступной вёрстки.',
+        description:
+          'Есть опыт и знания семантической и доступной вёрстки, знаю некоторые нестандартные теги. Так же слежу за новыми тегами (которые пока поддерживаются не во всех браузерах).',
       },
       {
         title: 'CSS',
         iconComponent: <CSSIcon color="white" />,
-        description: 'Адаптивная вёрстка, опыт в работе с Flex / Grid.',
+        description:
+          'Адаптивная вёрстка, опыт в работе с Flex / Grid, псевдоклассы, псевдоэлементы, псевдоселекторы и так далее. Частенько слежу за новыми свойствами и псевдоселекторами.',
       },
       {
         title: 'ReactJS',
         iconComponent: <ReactIcon color="white" />,
         description:
-          'Основные знания, хуки, библиотеки, JSX, функциональный подход, оптимизация приложений.',
+          'Основные знания, хуки, библиотеки, JSX, функциональный подход, оптимизация приложений. Основной фреймворк, на котором чаще всего пишу проекты.',
       },
       {
         title: 'VueJS',
         iconComponent: <VueIcon color="white" />,
-
-        description: 'Начал учить недавно, но очень быстро осваиваюсь.',
+        description:
+          'Начал учить недавно, но очень быстро осваиваюсь. Есть желание начать делать какой-нибудь новый pet-проект на нём.',
       },
       {
         title: 'React Native',
         iconComponent: <ReactIcon color="white" />,
         description:
-          'Имеется практический опыт разработки мобильных приложений на React Native с использованием дополнительных библиотек.',
+          'Имеется практический опыт разработки мобильных приложений на React Native с использованием дополнительных библиотек (React Native navigation, Gesture handler and some other).',
       },
       {
         title: 'React NextJS',
         iconComponent: <NextJSIcon color="white" />,
-        description: 'Есть опыт работы с SSR на React с помощью фреймворка NextJS.',
+        description: 'Есть опыт работы с SSR с помощью фреймворка NextJS.',
       },
       {
         title: 'SCSS',
         iconComponent: <SCSSIcon color="white" />,
-        description: 'Умею работать с препроцессором SCSS, активно применяю на практике.',
+        description: 'Умею работать с препроцессором SCSS, иногда применяю на практике.',
       },
       {
         title: 'React Material UI',
@@ -93,7 +97,8 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'Vite',
         iconComponent: <ViteIcon color="white" />,
-        description: 'Знания и практический опыт настройки приложения с Vite.',
+        description:
+          'Знания и практический опыт настройки приложения с Vite. ИМХО, очень удобный и быстрый сборщик, использую его почти во всех + - новых проектах',
       },
       {
         title: 'MobX',
