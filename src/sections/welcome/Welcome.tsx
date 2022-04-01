@@ -5,7 +5,7 @@ export const Welcome = (): JSX.Element => {
     <section className={styles.wrapper}>
       <div className={styles.inner}>
         <div className={styles.container}>
-          <p className={styles.text}>Привет</p>
+          <p className={styles.text}>Приветствую</p>
           <p className={styles.text}>Я являюсь программистом - веб разработчиком.</p>
           <p className={styles.text}>
             Увлекаюсь frontend'ом, но так же, иногда изучаю + практикую backend. На данной

@@ -98,12 +98,12 @@ html {
   --color-white: #fff;
 
   --font-color-primary: #fff;
-  --font-size-extra-small: 0.6rem;
+  --font-size-extra-small: 0.7rem;
   --font-size-small: 0.9rem;
   --font-size-medium: 1.3rem;
   --font-size-large: 1.8rem;
 
   color: var(--font-color-primary);
   font-size: var(--font-size-large);
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }

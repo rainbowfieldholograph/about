@@ -54,13 +54,13 @@ export const skillsData: ISkillCategory[] = [
         title: 'CSS',
         iconComponent: <CSSIcon color="white" />,
         description:
-          'Адаптивная вёрстка, опыт в работе с Flex / Grid, псевдоклассы, псевдоэлементы, псевдоселекторы и так далее. Частенько слежу за новыми свойствами и псевдоселекторами.',
+          'Адаптивная вёрстка, опыт в работе с Flex / Grid, псевдоклассы, псевдоэлементы, псевдоселекторы, CSS custom properties и так далее. Частенько слежу за обновлениями.',
       },
       {
         title: 'ReactJS',
         iconComponent: <ReactIcon color="white" />,
         description:
-          'Основные знания, хуки, библиотеки, JSX, функциональный подход, оптимизация приложений. Основной фреймворк, на котором чаще всего пишу проекты.',
+          'Основные знания, хуки, библиотеки, JSX, функциональный подход, оптимизация приложений, разделение на компоненты, пытаюсь в инкапсулирование логики от UI. React - мой первый и основной фреймворк, на котором чаще всего пишу проекты.',
       },
       {
         title: 'VueJS',
@@ -72,7 +72,7 @@ export const skillsData: ISkillCategory[] = [
         title: 'React Native',
         iconComponent: <ReactIcon color="white" />,
         description:
-          'Имеется практический опыт разработки мобильных приложений на React Native с использованием дополнительных библиотек (React Native navigation, Gesture handler and some other).',
+          'Имеется практический опыт разработки мобильных приложений на React Native с использованием дополнительных библиотек (React Native navigation, Gesture handler and some other). На нём я уже приличное время не работал.',
       },
       {
         title: 'React NextJS',
@@ -92,13 +92,13 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'Webpack',
         iconComponent: <WebpackIcon color="white" />,
-        description: 'Основные знания настройки приложения, подключение плагинов и тд.',
+        description: 'Основные знания настройки приложения, подключение плагинов и тд. На данный момент не применяю его, потому что перешел на Vite.',
       },
       {
         title: 'Vite',
         iconComponent: <ViteIcon color="white" />,
         description:
-          'Знания и практический опыт настройки приложения с Vite. ИМХО, очень удобный и быстрый сборщик, использую его почти во всех + - новых проектах',
+          'Знания и практический опыт настройки приложения с Vite. ИМХО, очень удобный и быстрый сборщик, использую его почти во всех +- новых проектах',
       },
       {
         title: 'MobX',
@@ -112,9 +112,9 @@ export const skillsData: ISkillCategory[] = [
           'Умею работать с Apollo Client, как для запросов на GraphQL API, так и для управления локальным состоянием приложения.',
       },
       {
-        title: 'Redux / Redux Thunk / Redux Toolkit',
+        title: 'Redux / Redux Thunk / Redux ToolKit',
         iconComponent: <ReduxIcon color="white" />,
-        description: 'Умею управлять глобальным состоянием приложения, с помощью Redux.',
+        description: 'Умею управлять глобальным состоянием приложения, с помощью Redux. Предпочитаю применять Redux с ReduxToolKit.',
       },
     ],
   },
@@ -125,7 +125,7 @@ export const skillsData: ISkillCategory[] = [
         title: 'NodeJS + ExpressJS',
         iconComponent: <NodejsIcon color="white" />,
         description:
-          'Дефолтные знания. Могу по шаблону сделать простой сервер без архитектуры.',
+          'Дефолтные знания. Могу по шаблону сделать простой сервер без сложной архитектуры.',
       },
       {
         title: 'MongoDB | Mongoose',
@@ -146,7 +146,7 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'AWS S3 Buckets',
         iconComponent: <AwsIcon color="white" />,
-        description: 'Загрузка файлов на AWS s3 buckets со своего серверного приложения.',
+        description: 'Был опыт загрузки файлов на AWS s3 buckets со своего серверного NodeJS приложения.',
       },
     ],
   },
@@ -161,12 +161,12 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'Figma',
         iconComponent: <FigmaIcon color="white" />,
-        description: 'Есть опыт вёрстки с макета Figma.',
+        description: 'Есть немалый опыт вёрстки с макета Figma.',
       },
       {
         title: 'Heroku',
         iconComponent: <HerokuIcon color="white" />,
-        description: 'Деплоил туда пару приложений NodeJS.',
+        description: 'Был опыт деплоя NodeJS приложений на Heroku.',
       },
     ],
   },
