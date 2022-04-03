@@ -68,7 +68,7 @@ img {
 }
 /* Global Variables */
 
-html {
+:root {
   --container-max-width: 1000px;
   --distance-after-section: clamp(100px, 30vh, 300px);
 
@@ -97,7 +97,9 @@ html {
   --font-size-small: 0.9rem;
   --font-size-medium: 1.3rem;
   --font-size-large: 1.8rem;
+}
 
+html {
   color: var(--font-color-primary);
   font-size: 28px;
   font-family: 'Nunito', sans-serif;
