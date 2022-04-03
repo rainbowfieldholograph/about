@@ -92,7 +92,8 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'Webpack',
         iconComponent: <WebpackIcon color="white" />,
-        description: 'Основные знания настройки приложения, подключение плагинов и тд. На данный момент не применяю его, потому что перешел на Vite.',
+        description:
+          'Основные знания настройки приложения, подключение плагинов и тд. На данный момент не применяю его, потому что перешел на Vite.',
       },
       {
         title: 'Vite',
@@ -114,7 +115,8 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'Redux / Redux Thunk / Redux ToolKit',
         iconComponent: <ReduxIcon color="white" />,
-        description: 'Умею управлять глобальным состоянием приложения, с помощью Redux. Предпочитаю применять Redux с ReduxToolKit.',
+        description:
+          'Умею управлять глобальным состоянием приложения, с помощью Redux. Предпочитаю применять Redux с ReduxToolKit.',
       },
     ],
   },
@@ -146,7 +148,8 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'AWS S3 Buckets',
         iconComponent: <AwsIcon color="white" />,
-        description: 'Был опыт загрузки файлов на AWS s3 buckets со своего серверного NodeJS приложения.',
+        description:
+          'Был опыт загрузки файлов на AWS s3 buckets со своего серверного NodeJS приложения.',
       },
     ],
   },
@@ -161,7 +164,7 @@ export const skillsData: ISkillCategory[] = [
       {
         title: 'Figma',
         iconComponent: <FigmaIcon color="white" />,
-        description: 'Есть немалый опыт вёрстки с макета Figma.',
+        description: 'Есть немалый опыт работы с макетами Figma при разработке frontend`а.',
       },
       {
         title: 'Heroku',

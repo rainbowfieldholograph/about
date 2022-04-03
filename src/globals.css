@@ -66,11 +66,6 @@ img {
   display: block;
   height: auto;
 }
-
-.reverseColor {
-  filter: invert(1);
-}
-
 /* Global Variables */
 
 html {
@@ -104,6 +99,6 @@ html {
   --font-size-large: 1.8rem;
 
   color: var(--font-color-primary);
-  font-size: var(--font-size-large);
+  font-size: 28px;
   font-family: 'Nunito', sans-serif;
 }
