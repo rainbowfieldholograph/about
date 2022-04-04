@@ -4,7 +4,7 @@ import { WorkCard } from '../../components/workCard/WorkCard';
 import styles from './MyWorks.module.css';
 
 export const MyWorks = (): JSX.Element => (
-  <SectionContainer className={styles.wrapper}>
+  <SectionContainer aria-label="Works" className={styles.wrapper}>
     <h1 className={styles.title}>My works example</h1>
     <ul className={styles.itemsList}>
       {worksData.map((work, index) => (

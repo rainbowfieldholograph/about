@@ -1,8 +1,8 @@
-import styles from './Welcome.module.css'
+import styles from './Welcome.module.css';
 
 export const Welcome = (): JSX.Element => {
   return (
-    <section className={styles.wrapper}>
+    <section aria-label="Welcome" className={styles.wrapper}>
       <div className={styles.inner}>
         <div className={styles.container}>
           <p className={styles.text}>Приветствую</p>
@@ -14,5 +14,5 @@ export const Welcome = (): JSX.Element => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
