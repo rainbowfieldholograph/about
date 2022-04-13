@@ -33,7 +33,7 @@
   position: sticky;
   top: 0;
 
-  color: var(--color-secondary);
+  color: var(--color-accent);
   font-size: 35px;
 
   width: 35px;
@@ -43,6 +43,12 @@
   margin-top: var(--extra-small-padding);
   margin-bottom: var(--extra-small-padding);
   margin-left: auto;
+
+  outline: none;
+}
+
+.closeButton:focus-visible {
+  box-shadow: 0 0 0 2px var(--color-accent); /* using box-shadow as border. */
 }
 
 @supports (hyphens: auto) {

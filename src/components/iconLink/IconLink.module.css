@@ -3,6 +3,15 @@
   font-size: 1rem;
 }
 
+.link {
+  outline: none;
+}
+
 .link:is(:hover, :focus) .icon {
   transform: scale(1.2);
+}
+
+.link:focus-visible > .icon {
+  outline: 2px solid var(--color-white);
+  outline-offset: 2px;
 }

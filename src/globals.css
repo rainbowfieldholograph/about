@@ -86,10 +86,11 @@ img {
 
   --color-primary: rgb(44, 55, 66);
   --color-secondary: rgb(68, 86, 104);
-  --color-active: rgb(204, 204, 204);
+  --color-active: rgb(235, 235, 235);
+  --color-white: #fff;
+  --color-accent: rgb(123, 167, 224);
 
   --content-background-color: rgb(20, 29, 38);
-  --color-white: #fff;
 
   --font-color-primary: #fff;
   --font-size-extra-small: 0.7rem;

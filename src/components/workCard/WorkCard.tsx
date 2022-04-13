@@ -18,9 +18,9 @@ export const WorkCard = ({
   const openModal = () => setIsOpen(true);
 
   const handleKeyPress = (event: KeyboardEvent) => {
-    if (event.key === 'Enter') {
+    if (event.code === 'Enter' || event.code === 'Space') {
+      event.preventDefault();
       setIsOpen(true);
-      console.log('open', isOpen);
     }
   };
 

@@ -35,7 +35,12 @@ export const Modal: FC<ModalProps> = ({ className, children, open, onClose }): J
           className={[styles.modal, className].join(' ')}
           onClick={(event) => event.stopPropagation()}
         >
-          <button className={styles.closeButton} onClick={onClose}>
+          <button
+            title="Close dialog"
+            aria-label="Close dialog"
+            className={styles.closeButton}
+            onClick={onClose}
+          >
             <CloseIcon />
           </button>
           {children}
