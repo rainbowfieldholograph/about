@@ -1,6 +1,6 @@
 .wrapper {
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   z-index: 1;
   background: linear-gradient(129deg, rgba(0, 0, 0, 1) 0%, rgba(20, 29, 38, 1) 100%);
   background-size: 120% 120%;
@@ -34,6 +34,7 @@
 .container {
   max-width: var(--container-max-width);
   padding: 0.5rem;
+  max-height: 100%;
 }
 
 .text:first-child {

@@ -6,12 +6,10 @@
   font-size: var(--font-size-extra-small);
 }
 
-.linksContainer {
+.links {
   font-size: var(--font-size-small);
-}
-
-.linksContainer > *:not(:last-child) {
-  margin-right: var(--small-distance-between);
+  display: flex;
+  gap: var(--small-distance-between);
 }
 
 .image {

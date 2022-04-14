@@ -18,7 +18,7 @@ export const WorkModal = ({
       <h2>{title}</h2>
       <h3>{stack}</h3>
       <p>{description}</p>
-      <div className={styles.linksContainer}>
+      <div className={styles.links}>
         {gitLink && <IconLink Icon={GitIcon} href={gitLink} />}
         {projectLink && <IconLink Icon={WatchIcon} href={projectLink} />}
       </div>

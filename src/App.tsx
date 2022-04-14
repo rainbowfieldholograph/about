@@ -9,10 +9,12 @@ import { GithubHeadLink } from './components/githubHeadLink/GithubHeadLink';
 const App = (): JSX.Element => (
   <div className="container">
     <GithubHeadLink />
-    <Welcome />
-    <main className="contentSection">
-      <Skills />
-      <MyWorks />
+    <main>
+      <Welcome />
+      <div className="contentSection">
+        <Skills />
+        <MyWorks />
+      </div>
     </main>
     <Footer />
   </div>
