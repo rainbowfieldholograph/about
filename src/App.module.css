@@ -7,6 +7,10 @@
   background-attachment: fixed;
 }
 
+.main {
+  display: contents;
+}
+
 .contentSection {
   position: relative;
   z-index: 2;
